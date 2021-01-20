@@ -1,0 +1,36 @@
+h1{
+    margin: 0;
+    padding: 2.5rem 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--ion-color-primary);
+    letter-spacing: .5em;
+}
+
+.utilities-container{
+    padding: 0 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    button{
+        height: 7rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4em;
+        border-radius: 1rem;
+        padding: 4px;
+        ion-icon{
+            display: block;
+            margin: 0 auto;
+            font-size: 1em;
+        }
+        span{
+            display: block;
+            margin: 0 auto;
+            font-size: .5em;
+            padding-top: 1em;
+            line-height: .5em;
+        }
+    }
+}

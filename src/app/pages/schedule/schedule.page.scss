@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.day-nav{
+    height: 5em;
+    width: 100%;
+    padding: 1.3em 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    ion-label{
+        color: var(--ion-color-step-850);
+        font-weight: 600;
+        font-size: 2em;
+    }
+    ion-icon{
+        color: var(--ion-color-step-850);
+        padding: 1em;
+    }
+}
+
+.wrapper{
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    .time{
+        color: var(--ion-color-step-850);
+        font-size: 2.5em;
+        font-weight: 600;
+        span{
+            font-size: .3em;
+            font-weight: 200;
+        }
+    }
+    .venue{
+        font-size: 2em;
+        font-weight: 600;
+    }
+    .info{
+        .name{
+            color: var(--ion-color-step-850);
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        .teachers{
+            font-size: .8em;
+        }
+    }
+    .attendance{
+        padding-top: .8em;
+    }
+}
+
+ion-card{
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: none;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+
+}
+
+ion-card-content{
+    padding: .4em;
+    transition: all ease-in-out 250ms;
+}
+
+.enjoy{
+    padding-bottom: .3em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.enjoy-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.currentClass{
+    border-radius: 1em;
+    border: 2px solid var(--ion-color-step-850);
+}
+
+.showPicker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0;
+    color: rgba(255,255,255,50%);
+    h2{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: .8em;
+    }
+    ion-icon{
+        margin:1.5em;
+        font-size: 5em;
+    }
+}
+
+.noDB{
+    h2{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2em;
+    }
+}

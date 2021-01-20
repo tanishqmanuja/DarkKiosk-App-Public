@@ -1,0 +1,79 @@
+ion-header{
+    ion-toolbar{
+        //height: 10vh;
+        border-radius: 0 0 1em 1em;
+        padding-top: 25px;
+        ion-title{
+            padding-bottom: .5em;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
+
+.day-nav,.time-nav{
+    height: 4em;
+    width: 100%;
+    padding: .5em 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    &-item{
+        text-align: center;
+        height: 2.2em;
+        width: 2.2em;
+        line-height: 2.2em;
+        font-family: 'Montserrat', sans-serif;
+        font-size: .6em;
+        background-color: var(--ion-color-primary);
+        border-radius: 50%;
+        &-active{
+            height: 2.5em;
+            width: 2.5em;
+            line-height: 2.5em;
+            font-size: .8em;
+        }
+        transition: all ease-in-out 250ms;
+    }
+}
+
+.day-nav{
+    padding-bottom: 0;
+}
+
+.time-nav{
+    padding-top: 0;
+}
+
+.venue-container{
+    width: 100%;
+    padding: .25em 2em 4em 2em;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: .8em .5em; 
+    
+    .venue{
+        text-align: center;
+        color: var(--ion-color-primary);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.92em;
+        font-weight: bold;
+        padding: .5em 0;
+        width: 100%;
+        border: 1px solid var(--ion-color-primary);
+        border-radius: 1em;
+        background-color: rgba(#30a783,10%);
+        transition: all 400ms ease-in-out;
+    }
+    .venue.booked{
+        color: var(--ion-red);
+        border: 1px solid var(--ion-red);
+        background-color: rgba(#E44826,10%);
+    }
+}
+
+.no-venues{
+    text-align: center;
+    color: var(--ion-color-step-500);
+    font-family: 'Montserrat', sans-serif;
+}

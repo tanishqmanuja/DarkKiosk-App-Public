@@ -1,0 +1,25 @@
+ion-header{
+    ion-toolbar{
+        //height: 10vh;
+        border-radius: 0 0 1em 1em;
+        padding-top: 25px;
+        ion-title{
+            padding-bottom: .5em;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
+
+super-tabs-toolbar{
+    height: 3.8em;
+    border-radius: 1em 1em 0 0;
+    overflow: hidden;
+    super-tab-button{
+        height: 3.6em;
+        --st-icon-color-active: rgba(0,0,0,90%);
+        --st-icon-color-inactive: rgba(0,0,0,40%);
+        &:hover{
+            background: inherit !important;
+        }
+    }
+}

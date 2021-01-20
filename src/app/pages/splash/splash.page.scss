@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+ion-content{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url('../../../assets/images/bg.png');
+    background-position: center;
+    background-size: 6em;
+    background-repeat: repeat;
+    background-color: #121212;
+    position: absolute;
+    z-index: 0;
+    animation-name: bg;
+    animation-delay: 800ms;
+    animation-duration: 1200ms;
+    animation-fill-mode: both;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+}
+.vignette{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: linear-gradient(#121212,transparent,#121212);
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    animation-name: vignette;
+    animation-delay: 1200ms;
+    animation-duration: 500ms;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+
+    .title {
+
+        display: flex;
+        flex-direction: row;
+
+        .letter {
+            font-size: 3.2em;
+            font-family: 'Fugaz One', cursive;
+            animation-name: title;
+            animation-duration: 250ms;
+            animation-fill-mode: both;
+            animation-timing-function: ease-in;
+        }
+    }
+
+    .subtitle {
+        color: var(--ion-green);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        .letter {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 200;
+            font-size: .9em;
+            animation-name: subtitle;
+            animation-duration: 400ms;
+            animation-fill-mode: both;
+            animation-timing-function: ease-in;
+            padding-right: 1em;
+
+            &:last-of-type {
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+@keyframes title {
+    0% {
+        opacity: 0;
+        transform: scale(0.6) translateY(-8px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes subtitle {
+    0% {
+        opacity: 0;
+        transform: scale(3);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes bg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.3);
+        opacity: 0.5;
+    }
+}
+
+@keyframes vignette {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,91 @@
+ion-header{
+    ion-toolbar{
+        border-radius: 0 0 1em 1em;
+        padding-top: 25px;
+        ion-title{
+            padding-bottom: .5em;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
+
+ion-content{
+    font-family: 'Montserrat', sans-serif;
+    h4{
+        padding-left: 2rem;
+    }
+    .overall-container{
+        padding: 1rem 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        h6{
+            font-size: small;
+            color: var(--ion-color-step-850);
+            margin: 0;
+        }
+        h3{
+            margin: .15em 0;
+            font-weight: 600;
+            font-size: 2.7em;
+            span{
+                font-weight: 200;
+                font-size: .7em;
+                padding-right: 3px;
+            }
+        }
+        .paid{
+            text-align: left;
+            h3{
+                color: var(--ion-green);
+            }
+        }
+        .due{
+            text-align: right;
+            h3{
+                color: var(--ion-red);
+            }
+        }
+    }
+    .card{
+        margin: 1em 2em;
+        padding: .4em 1em 1em 1em;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(#30a783,10%);
+        border-radius: 1em;
+        border: 1px solid var(--ion-color-primary);
+        .semester{
+            color: var(--ion-color-primary);
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            padding-bottom: .5em;
+        }
+        .total{
+            font-size: large;
+            span{
+                font-size: .7em;
+            }
+        }
+        .paid-due{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            color: var(--ion-color-step-850);
+            span{
+                font-size: .7em;
+            }
+        }
+    }
+    .card.due{
+        border: 1px solid var(--ion-red);
+        background-color: rgba(#E44826,10%);
+        .semester{
+            color: var(--ion-red);
+        }
+    }
+}
+

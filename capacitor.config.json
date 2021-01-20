@@ -1,0 +1,23 @@
+{
+  "appId": "com.starkinc.darkkiosk",
+  "appName": "DarkKiosk",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {},
+  "android": {
+    "backgroundColor": "#ff121212"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false,
+      "backgroundColor": "#121212"
+    },
+    "PushNotications": {
+      "presentationOptions": [
+        "badge",
+        "alert"
+      ]
+    }
+  }
+}

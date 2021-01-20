@@ -1,0 +1,7 @@
+{
+  "name": "DarkKiosk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

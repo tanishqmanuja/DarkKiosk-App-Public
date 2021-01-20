@@ -1,0 +1,80 @@
+<ion-content>
+
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <div class="day-nav">
+    <ion-icon name="chevron-back-outline" (click)="changeDay(selectedIndex-1)"></ion-icon>
+    <ion-label>{{ days[selectedIndex] | uppercase }}</ion-label>
+    <ion-icon name="chevron-forward-outline" (click)="changeDay(selectedIndex+1)"></ion-icon>
+  </div>
+
+  <ng-container *ngIf="(attendance.length);else skeleton">
+
+    <ng-container *ngIf="(atatData && atatData.sem && atatData.batch && !noTimetable)">
+      <ion-card *ngFor="let data of getCurrentPeriods()">
+        <ion-card-content [ngClass]="{'currentClass': currentClass==data}">
+          <div class="wrapper">
+            <div class="time">{{formatTime(data.time)[0]}}<span>{{formatTime(data.time)[1]}}</span> </div>
+            <div class="venue">{{data.venue||'N.A.'}}</div>
+            <div class="info">
+              <div class="name">{{(data.subject.acronym || titleShortener(data.subject.name,10))|slice:0:8}}</div>
+              <div class="type">{{data.type|titlecase}}</div>
+              <div class="teachers">{{data.teachers}}</div>
+            </div>
+            <div class="attendance" (click)="openDetails(data.subject.coursecode)">
+              <circle-progress [percent]="getAttendance(data.subject.coursecode)" [maxPercent]="100" [radius]="25"
+                [showTitle]="true" [showSubtitle]="false" [showUnits]="false" [showInnerStroke]="false" [animation]="false"
+                [outerStrokeColor]="'#DBDBDB'" [outerStrokeWidth]="6" [titleColor]="'#DBDBDB'" [titleFontSize]="15"
+                [renderOnClick]="false">
+              </circle-progress>
+            </div>
+          </div>
+        </ion-card-content>
+      </ion-card>
+      <ion-card *ngIf="!getCurrentPeriods().length">
+        <ion-card-header>
+          <ion-card-title class="enjoy-title">No Classes Today</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <h3 class="enjoy">Enjoy the Day</h3>
+        </ion-card-content>
+      </ion-card>
+    </ng-container>
+
+    <ng-container *ngIf="noTimetable">
+      <div class="noDB">
+        <h2>No Database for this Sem</h2>
+      </div>
+    </ng-container>
+
+    <ng-template #showPicker >
+      <div class="showPicker">
+        <h2>Please Select Sem and Batch</h2>
+        <p>( If already selected pull down to refresh! )</p>
+        <ion-icon name="add-circle-outline" (click)="handlePicker()"></ion-icon>
+      </div>
+    </ng-template>
+  </ng-container>
+
+  <ng-template #skeleton>
+    <ion-card *ngFor="let data of arrayFn(6)">
+      <ion-card-content>
+        <div class="wrapper">
+          <div class="time"><ion-skeleton-text animated style="width: 1em;height: 1em;"></ion-skeleton-text></div>
+          <div class="venue"><ion-skeleton-text animated style="width: 1em;height: 1em;"></ion-skeleton-text></div>
+          <div class="info">
+            <div class="name"><ion-skeleton-text animated style="width: 2em"></ion-skeleton-text></div>
+            <div class="type"><ion-skeleton-text animated style="width: 3em"></ion-skeleton-text></div>
+            <div class="teachers"><ion-skeleton-text animated style="width: 3em"></ion-skeleton-text></div>
+          </div>
+          <div class="attendance" style="padding-top: 0;">
+            <ion-skeleton-text animated style="width: 3em;height: 3em;border-radius: 50%;"></ion-skeleton-text>
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </ng-template>
+
+</ion-content>

@@ -1,0 +1,25 @@
+<div class="main-container">
+  <div class="header">
+    <div class="title">User Info</div>
+  </div>
+  <div class="header-extender"></div>
+  <div class="form-container">
+      <div class="greeting">
+        <span>Choose in App Name,</span>
+        <input type="text" placeholder="Mr. Stark" [(ngModel)]="alias">
+        <div class="pills">
+          <div class="pill"></div>
+          <div class="pill"></div>
+          <div class="pill"></div>
+        </div>
+      </div>
+      <div class="batch">
+        <span>Enter Batch,</span>
+        <input type="text" placeholder="A9" [(ngModel)]="batch">
+      </div>
+      <button class="login-btn" mat-flat-button color="accent" type="button" (click)="saveInfo()">
+        Blast Off!
+      </button>
+  </div>
+  <div class="footer"></div>
+</div>

@@ -1,0 +1,42 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>GradePoint Play</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="info-bar">
+    <div class="sgpa">
+      Estimated SGPA is
+      <span>{{sgpa | number:'1.2-2'}}</span>
+    </div>
+  </div>
+
+  <div cdkDropListGroup>
+    <div class="subject-list" *ngIf="subjects">
+      <div class="subject-list-cell" *ngFor="let subject of subjects.data[0].subjectList;index as i" [ngStyle]="{'background-color':getColor(subject.grade)}" cdkDropList [cdkDropListDisabled]="true" (cdkDropListDropped)="onDropped($event,i)">
+        <div class="name">
+          {{shorten(subject.name,0)}}
+        </div>
+        <div class="credit">
+          Credits : {{subject.credit}}
+        </div>
+        <div class="grade">
+          {{subject.grade}}
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="grade-bar" cdkDropList cdkDropListSortingDisabled>
+      <div cdkDrag class="grade-bar-cell" *ngFor="let grade of grades;index as i" [ngStyle]="{'background-color':colors[i]}">
+        <div class="text">
+          {{grade}}
+        </div>
+      </div>
+    </div>
+    <div class="grade-bar-bg"></div>
+  </div>
+  
+
+</ion-content>

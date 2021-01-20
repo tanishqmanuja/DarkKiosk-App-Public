@@ -1,0 +1,63 @@
+.greeting{
+    padding: 2em 0 0 2em;
+    font-family: 'Montserrat', sans-serif;
+    span{
+        font-weight: 200;
+    }
+    h2{
+        font-size: 2em;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+    }
+    .pills{
+        margin-top: 4px;
+        .pill{
+            position: absolute;
+            background-color: var(--ion-red);
+            height: 6px;
+            width: 30px;
+            border-radius: 4px;
+        }
+        .pill:nth-last-of-type(2){
+            background-color: var(--ion-yellow);
+            margin-left: 26px;
+        }
+        .pill:nth-last-of-type(3){
+            background-color: var(--ion-green);
+            margin-left: 52px;
+        }
+    }
+}
+
+.classes{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 2rem;
+    h4{
+        margin-top: 2em;
+    }
+    h6{
+        margin:0;
+        font-size: .7em;
+        font-weight: 200;
+    }
+    .ongoing,.upcoming{
+        margin:.4em 0 .4em 1em;
+        .type-venue{
+            font-size: .8em;
+        }
+    }
+}
+
+.attendance-marks{
+    font-family: 'Montserrat', sans-serif;
+    h4{
+        margin-top: 1.5em;
+        margin-left: 2rem;
+        padding: 0;
+    }
+    .chart{
+        padding-top: .5em;
+        width: 100vw;
+    }
+}

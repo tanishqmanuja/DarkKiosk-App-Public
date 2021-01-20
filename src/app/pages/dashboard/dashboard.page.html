@@ -1,0 +1,60 @@
+<ion-content>
+  <div class="greeting">
+    <span>Hello,</span>
+    <h2>{{alias}}</h2>
+    <div class="pills">
+      <div class="pill"></div>
+      <div class="pill"></div>
+      <div class="pill"></div>
+    </div>
+  </div>
+
+  <div class="classes" *ngIf="classes[0]||classes[1]">
+    <h4>Classes</h4>
+    <div class="ongoing" *ngIf="classes[0]">
+      <h6>Ongoing</h6>
+      <div class="title">{{titleShort(classes[0].subject.name)}}</div>
+      <div class="type-venue">{{classes[0].type|titlecase}} {{classes[0].venue?'-':''}} {{classes[0].venue}}</div>
+    </div>
+    <div class="upcoming" *ngIf="classes[1]">
+      <h6>Upcoming - {{formatTime(classes[1].time)[0]}}{{formatTime(classes[1].time)[1]}}</h6>
+      <div class="title">{{titleShort(classes[1].subject.name)}}</div>
+      <div class="type-venue">{{classes[1].type|titlecase}} {{classes[1].venue?'-':''}} {{classes[1].venue}}</div>
+    </div>
+  </div>
+
+  <div class="attendance-marks" *ngIf="(attendance || marks);else skeleton">
+    <h4>Attendance & Marks</h4>
+    <div class="chart">
+      <div style="display: block" class="chart-wrapper">
+        <canvas baseChart [datasets]="radarChartData" [options]="radarChartOptions" [labels]="radarChartLabels"
+          [chartType]="radarChartType">
+        </canvas>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #skeleton>
+    <div class="attendance-marks">
+      <ion-skeleton-text animated style="width: 60%;margin-left:2em;margin-top:2em;"></ion-skeleton-text>
+      <div class="chart">
+        <div style="display: block" class="chart-wrapper">
+          <ion-skeleton-text animated style="width: 80%;height: 50px;margin-left:2em;"></ion-skeleton-text>
+        </div>
+      </div>
+      <ion-skeleton-text animated style="width: 60%;margin-left:2em;margin-top:2em;"></ion-skeleton-text>
+      <div class="chart">
+        <div style="display: block" class="chart-wrapper">
+          <ion-skeleton-text animated style="width: 80%;height: 50px;margin-left:2em;"></ion-skeleton-text>
+        </div>
+      </div>
+      <ion-skeleton-text animated style="width: 60%;margin-left:2em;margin-top:2em;"></ion-skeleton-text>
+      <div class="chart">
+        <div style="display: block" class="chart-wrapper">
+          <ion-skeleton-text animated style="width: 80%;height: 50px;margin-left:2em;"></ion-skeleton-text>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+
+</ion-content>

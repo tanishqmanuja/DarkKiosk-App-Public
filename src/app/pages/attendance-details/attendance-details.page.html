@@ -1,0 +1,51 @@
+<ion-card>
+  <ion-card-header>
+    <ion-card-title *ngIf="data.course.name" >{{titleShort(data.course.name,30)}}</ion-card-title>
+    <ion-card-subtitle>
+      <div class="rest">
+          <h6 *ngIf="data.attendance.lec">Lec : <span>{{data.attendance.lec}}%</span></h6>
+          <h6 *ngIf="data.attendance.tut">Tut : <span>{{data.attendance.tut}}%</span></h6>
+          <h6 *ngIf="data.attendance.prac">Prac : <span>{{data.attendance.prac}}%</span></h6>
+      </div>
+      <div class="circle">
+        <circle-progress
+      [percent]="data.attendance.total || data.attendance.prac"
+      [maxPercent]="100"
+      [radius]="30"
+      [showTitle]="true"
+      [showSubtitle]="false"
+      [showUnits]="false"
+      [showInnerStroke]="false"
+      [animation]="true"
+      [outerStrokeColor]="'#DBDBDB'"
+      [outerStrokeWidth]="8"
+      [titleColor]="'#DBDBDB'"
+    ></circle-progress>
+      </div>
+    <div class="info">
+      <h6 *ngIf="attendingNext"><span>{{attendingNext}}%</span> : Next+</h6>
+      <h6 *ngIf="missingNext"><span>{{missingNext}}%</span> : Next- </h6>
+    </div>
+  </ion-card-subtitle>
+  </ion-card-header>
+  <ion-content [scrollEvents]="true">
+    <mat-list *ngIf="data.details">
+      <mat-list-item *ngFor="let rec of data.details">
+          <div class="dot" [ngStyle]="{'background': rec.status=='Present'? 'var(--ion-green)':'var(--ion-red)'}"></div>
+          <div>{{rec.date}}</div>
+          <div>{{rec.type|titlecase|slice:0:3}}</div>
+          <div>{{nameShort(rec.teacher)|titlecase}}</div>
+      </mat-list-item>
+  </mat-list>
+  <div *ngIf="!data.details" class="not-available">
+    <h3>No Details Available</h3>
+  </div>
+  </ion-content>
+</ion-card>
+
+
+<ion-fab vertical="bottom" horizontal="center" slot="fixed">
+  <ion-fab-button (click)="closeModal()" class="close-btn">
+    <ion-icon name="close"></ion-icon>
+  </ion-fab-button>
+</ion-fab>

@@ -1,0 +1,31 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>Vacant Venues</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="day-nav">
+    <div class="day-nav-item" *ngFor="let day of days;index as i" (click)="changeDay(i)"
+      [ngClass]="{'day-nav-item-active':selectedDayIndex==i}">
+      {{selectedDayIndex==i ? (day|titlecase|slice:0:2) : (day|titlecase|slice:0:1)}}</div>
+  </div>
+
+  <div class="time-nav">
+    <div class="time-nav-item" *ngFor="let time of times;index as i" (click)="changeTime(i)"
+      [ngClass]="{'time-nav-item-active':selectedTimeIndex==i}">
+      {{time}}</div>
+  </div>
+
+  <div class="no-venues" *ngIf="!allVenues.length">
+    <h3>No Venue is Available</h3>
+  </div>
+
+  <div class="venue-container">
+    <div class="venue" *ngFor="let v of allVenues" [ngClass]="{'booked':isBooked(v)}">
+      <div class="name">{{v}}</div>
+    </div>
+  </div>
+
+</ion-content>

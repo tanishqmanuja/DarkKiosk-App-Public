@@ -1,0 +1,115 @@
+ion-header{
+    ion-toolbar{
+        border-radius: 0 0 1em 1em;
+        padding-top: 25px;
+        ion-title{
+            padding-bottom: .5em;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
+
+.info-bar{
+    padding-top: 1em;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    .sgpa{
+        span{
+            font-weight: bold;
+            font-size: 3em;
+            display: block;
+        }
+    }
+}
+
+.subject-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 92vw;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 20vh;
+    gap: 4vw;
+    &-cell{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        background-color: #121212;
+        border-radius: 2rem;
+        padding: .5rem;
+        transition: background 200ms ease-out;
+        .name{
+            padding: 0 .2rem;
+            font-weight: bold;
+        }
+        .credit{
+            font-size: .7em;
+        }
+        .grade{
+            font-size: 1.5em;
+            padding: 5px;
+        }
+    }
+}
+
+.grade-bar{
+    position: fixed;
+    z-index: 2;
+    display: grid;
+    gap: .5rem;
+    bottom: -1px;
+    height: 15vh;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding:2.7vw;
+    padding-top: 4vw;
+    &-cell{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 90%;
+        background-color: var(--ion-color-primary);
+        border: 3px solid var(--ion-background-color);
+        border-radius: 2rem;
+        .text{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            text-align: center;
+        } 
+    }
+    &-bg{
+        position: fixed;
+        z-index: 1;
+        bottom: 0;
+        width: 100vw;
+        height: 10.5vh;
+        background-color: var(--ion-background-color);
+        border: 3px solid var(--ion-color-primary);
+        border-bottom: none;
+        border-radius: 2rem 2rem 0 0;
+    }
+}
+
+.cdk-drag-preview {
+    transition: border-color ease-in 200ms;
+    border-color: transparent;
+}
+
+.cdk-drag-placeholder {
+    display: none;
+}

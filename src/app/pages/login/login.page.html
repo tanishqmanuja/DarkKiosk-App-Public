@@ -1,0 +1,12 @@
+<ion-content scroll-y="false">
+  <ion-slides #slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <webkiosk-page (loggedIn)="wkLoggedIn($event)"></webkiosk-page>
+    </ion-slide>
+    <ion-slide>
+      <darkiosk-page (blastOff)="triggerBlastOff($event)" ></darkiosk-page>
+    </ion-slide>
+  </ion-slides>
+
+  <blastoff-page [ngStyle]="{'bottom':rocketTop+'vh'}" ></blastoff-page>
+  </ion-content>

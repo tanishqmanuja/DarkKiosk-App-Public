@@ -1,0 +1,105 @@
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Edit Details</ion-card-title>
+  </ion-card-header>
+    <div class="form-container">
+
+      <form class="form" [formGroup]="editForm" [ngStyle]="{'padding-top':data?'0em':'0em'}">
+
+        <h2 *ngIf="title">{{title}}</h2>
+
+        <mat-form-field *ngIf="!data" appearance="outline" color="primary">
+          <mat-label>Select Subject</mat-label>
+          <mat-select formControlName="subject">
+            <mat-option *ngFor="let subject of subjects" [value]="subject">
+              {{subject.name}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <div class="wrapper" *ngIf="!data;else dataBlock">
+          <mat-form-field *ngIf="!data" appearance="outline" color="primary">
+            <mat-label>Type</mat-label>
+            <mat-select formControlName="type">
+              <mat-option *ngFor="let type of types" [value]="type">
+                {{type|titlecase}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+  
+          <mat-form-field appearance="outline" color="primary">
+            <mat-label>Day</mat-label>
+            <mat-select formControlName="day">
+              <mat-option *ngFor="let day of days" [value]="day">
+                {{day|titlecase|slice:0:3}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+  
+          <mat-form-field appearance="outline" color="primary">
+            <mat-label>Time</mat-label>
+            <mat-select formControlName="time">
+              <mat-option *ngFor="let time of times" [value]="time">
+                {{formatTime(time)}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+        <mat-form-field *ngIf="!data" appearance="outline" color="primary">
+          <mat-label>Duration</mat-label>
+          <mat-select formControlName="duration">
+            <mat-option *ngFor="let duration of durations" [value]="duration">
+              {{duration}} {{duration>1?'Hrs':'Hr'}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <ng-template #dataBlock>
+          <mat-form-field *ngIf="!data" appearance="outline" color="primary">
+            <mat-label>Select Type</mat-label>
+            <mat-select formControlName="type">
+              <mat-option *ngFor="let type of types" [value]="type">
+                {{type|titlecase}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+  
+          <mat-form-field appearance="outline" color="primary">
+            <mat-label>Select Day</mat-label>
+            <mat-select formControlName="day">
+              <mat-option *ngFor="let day of days" [value]="day">
+                {{day|titlecase|slice:0:3}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+  
+          <mat-form-field appearance="outline" color="primary">
+            <mat-label>Select Time</mat-label>
+            <mat-select formControlName="time">
+              <mat-option *ngFor="let time of times" [value]="time">
+                {{formatTime(time)}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </ng-template>
+
+        <mat-form-field appearance="outline" color="primary">
+          <mat-label>Venue</mat-label>
+          <input matInput placeholder="Ex. FF3" formControlName="venue">
+        </mat-form-field>
+
+        <mat-form-field *ngIf="!data" appearance="outline" color="primary">
+          <mat-label>Teachers</mat-label>
+          <input matInput placeholder="Ex. PN,APJ" formControlName="teachers">
+        </mat-form-field>
+
+        <button mat-flat-button color="primary" (click)="closeModal()" type="button">Save Info</button>
+        <button *ngIf="data" mat-flat-button color="primary" (click)="closeModal(true)" type="button">Delete Class</button>
+
+      </form>
+    </div>
+</ion-card>
+
+

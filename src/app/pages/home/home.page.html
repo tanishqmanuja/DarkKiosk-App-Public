@@ -1,0 +1,42 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>{{title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<super-tabs active-tab-index="2" [config]="config">
+  <super-tabs-toolbar slot="bottom" show-indicator="false">
+    <super-tab-button>
+      <ion-icon name="layers-outline"></ion-icon>
+    </super-tab-button>
+    <super-tab-button>
+      <ion-icon name="analytics-outline"></ion-icon>   
+    </super-tab-button>
+    <super-tab-button>
+      <ion-icon name="home-outline"></ion-icon>   
+    </super-tab-button>
+    <super-tab-button>
+      <ion-icon name="calendar-outline"></ion-icon>  
+    </super-tab-button>
+    <super-tab-button>
+      <ion-icon name="rocket-outline"></ion-icon>    
+    </super-tab-button>
+  </super-tabs-toolbar>
+  <super-tabs-container>
+    <super-tab>
+      <ion-nav [root]="attendancePage" [style.display]="displays[0]?'unset':'none'"></ion-nav>
+    </super-tab>
+    <super-tab>
+      <ion-nav [root]="reportsPage" [style.display]="displays[1]?'unset':'none'"></ion-nav>
+    </super-tab>
+    <super-tab>
+      <ion-nav [root]="dashboardPage" [style.display]="displays[2]?'unset':'none'"></ion-nav>
+    </super-tab>
+    <super-tab>
+      <ion-nav [root]="schedulePage" [style.display]="displays[3]?'unset':'none'"></ion-nav>
+    </super-tab>
+    <super-tab>
+      <ion-nav [root]="featuresPage" [style.display]="displays[4]?'unset':'none'"></ion-nav>
+    </super-tab>
+  </super-tabs-container>
+</super-tabs>

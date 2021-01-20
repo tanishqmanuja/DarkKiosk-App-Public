@@ -1,0 +1,109 @@
+ion-header{
+    ion-toolbar{
+        //height: 10vh;
+        border-radius: 0 0 1em 1em;
+        padding-top: 25px;
+        ion-title{
+            padding-bottom: .5em;
+            font-family: 'Montserrat', sans-serif;
+        }
+        button:first-of-type{
+            position: absolute;
+            top: 3px;
+            right: 0px;
+        }
+    }
+}
+
+ion-content{
+    .headers{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            padding-left: 5vw;
+        }
+    }
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        padding-left: 5vw;
+    }
+    .safety-space{
+        height: 10vh;
+    }
+}
+
+.wrapper{
+    width: 85vw;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    .time{
+        color: var(--ion-color-step-850);
+        font-size: 2.5em;
+        font-weight: 600;
+        span{
+            font-size: .3em;
+            font-weight: 200;
+        }
+    }
+    .venue{
+        font-size: 2em;
+        font-weight: 600;
+    }
+    .info{
+        .name{
+            color: var(--ion-color-step-850);
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        .teachers{
+            font-size: .8em;
+        }
+    }
+    .edit{
+        ion-icon{
+            margin-top:5px;
+            font-size: 2em;
+        }
+    }
+}
+
+ion-card{
+    width: 90vw;
+    border-radius: 1em;
+    overflow: hidden;
+    margin: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ion-card-content{
+        padding: .4em;
+        transition: all ease-in-out 250ms;
+    }
+    &.vacant{
+        ion-card-content{
+            ion-icon{
+                margin-top:5px;
+                font-size: 3em;
+                color: #FFFFFF30;
+            }
+        }
+    }
+}
+
+ion-slide{
+    display: grid;
+    grid-auto-rows: 1fr;
+}
+
+ion-fab{
+    bottom: 5vh;
+    right: 5vh;
+    --ion-color-primary-shade: var(--ion-green);
+    --ion-color-primary-tint: var(--ion-green);
+}

@@ -1,0 +1,63 @@
+ion-card{
+    height: 92.5%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em;
+    ion-card-header{
+        background-color: var(--ion-color-primary);
+        border-radius: 0 0 2em 2em;
+        ion-card-title{
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.7em;
+            font-weight: 600;
+        }
+    }
+    ion-card-content{
+        padding-top: 4em;
+        overflow: scroll;
+    }
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transition: all 300ms ease-in-out;
+    overflow: hidden;
+    overflow-y: auto;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .form{
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        .wrapper{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            mat-form-field{
+                width: 20vw;
+            }
+        }
+        button{
+            height: 3rem;
+            margin-bottom: 2em;
+        }
+        button:nth-of-type(2){
+            background: var(--ion-red);
+        }
+    }
+    h2{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.7em;
+        margin: 0;
+        padding-bottom: 1em;
+    }
+}

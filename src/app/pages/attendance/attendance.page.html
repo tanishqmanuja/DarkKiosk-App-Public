@@ -1,0 +1,53 @@
+<ion-content>
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <ng-container *ngIf="(attendance && attendance.data);else skeleton">
+    <ng-container animateIonCards [animateOnce]="true" *ngFor="let data of attendance.data;index as i">
+      <ion-card *ngIf="data.attendance.total || data.attendance.prac || data.attendance.lec || data.attendance.tut" (click)="openDetails(data.course.code)">
+        <ion-card-header>
+          <ion-card-title>{{titleShort(data.course.name,30)}}</ion-card-title>
+          <ion-card-subtitle *ngIf="data.details">
+            <div class="line" [ngStyle]="{'width':getTotalAttendance(data.attendance)*(3/5)+'%','background-color':getAttendanceColor(data.attendance)}"></div>
+            <div class="dots">
+              <div class="dot" *ngFor="let val of data.details|slice:0:5" [ngStyle]="{'background': val.status=='Present'? 'var(--ion-green)':'var(--ion-red)'}"></div>
+            </div>
+          </ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          <div class="rest">
+            <h6 *ngIf="data.attendance.lec">Lecture : <span>{{data.attendance.lec}}%</span></h6>
+            <h6 *ngIf="data.attendance.tut">Tutorial : <span>{{data.attendance.tut}}%</span></h6>
+            <h6 *ngIf="data.attendance.prac">Practical : <span>{{data.attendance.prac}}%</span></h6>
+          </div>
+          <div class="total">
+            <h6 *ngIf="data.attendance.total">{{getTotalAttendance(data.attendance) | number: '2.0-0'}}<span>%</span></h6>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </ng-container>
+  </ng-container>
+
+  <ng-template #skeleton>
+    <ng-container *ngFor="let data of arrayFn(5)">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title><ion-skeleton-text animated style="width: 60%"></ion-skeleton-text></ion-card-title>
+          <ion-card-subtitle>
+            <ion-skeleton-text animated style="width: 20%"></ion-skeleton-text>
+          </ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          <div class="rest">
+            <h6><ion-skeleton-text animated style="width: 15px"></ion-skeleton-text></h6>
+            <h6><ion-skeleton-text animated style="width: 15px"></ion-skeleton-text></h6>
+          </div>
+          <div class="total">
+            <h6><ion-skeleton-text animated style="width: 40px;height: 25px;"></ion-skeleton-text></h6>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </ng-container>
+  </ng-template>
+</ion-content>

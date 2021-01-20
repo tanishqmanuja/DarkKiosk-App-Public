@@ -1,0 +1,75 @@
+ion-card{
+    height: 92.5%;
+    border-radius: 2em;
+    ion-card-header{
+        background-color: var(--ion-color-primary);
+        border-radius: 0 0 2em 2em;
+        ion-card-title{
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.7em;
+            font-weight: 600;
+        }
+        ion-card-subtitle{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: space-around;
+            align-items: center;
+            color: #DBDBDB;
+            .rest,.info{
+                h6{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 200;
+                    font-size: 0.8em;
+                    span{
+                        font-weight: 600;
+                        font-size: 1em;
+                    }
+                }
+            }
+            .info{
+                text-align: right;
+            }
+            .circle{
+                padding-left: .53em;
+                margin: 0 auto;
+            }
+        }
+    }
+    ion-content{
+        top: 0;
+        height: 65%;
+        --ion-background-color: #1A1B1E !important;
+        mat-list{
+            mat-list-item{
+                div{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 400;
+                    font-size: 0.6em;
+                }
+            }
+            mat-list-item:last-of-type{
+                margin-bottom: 1.5em;
+            }
+        }
+        .not-available{
+            color: var(--ion-color-step-500);
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 0.6em;
+        }
+    }
+}
+
+.close-btn{
+    --box-shadow: none;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    margin-right: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+}

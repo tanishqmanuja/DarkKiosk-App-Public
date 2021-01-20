@@ -1,0 +1,50 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>Fee Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content
+      pullingIcon="chevron-down-outline"
+      pullingText="Pull to refresh"
+      refreshingSpinner="dots">
+    </ion-refresher-content>
+  </ion-refresher>
+  
+  <h4>Overall</h4>
+  <div class="overall-container">
+    <div class="paid">
+      <h6>Paid</h6>
+      <h3><span>₹</span>{{formatMoney(totalPaid)}}</h3>
+    </div>
+    <div class="due">
+      <h6>Due</h6>
+      <h3><span>₹</span>{{formatMoney(totalDue)}}</h3>
+    </div>
+  </div>
+  <h4>History</h4>
+
+  <ng-container *ngIf="feeDetails.length;else skeleton">
+    <div class="card" *ngFor="let rec of feeDetails" [ngClass]="{'due':isDue(rec.due)}">
+      <div class="semester">Semeter {{rec.sem}}</div>
+      <div class="total"><span>Total : </span>₹ {{rec.total}}</div>
+      <div class="paid-due">
+        <div class="paid-inner"><span>Paid : </span>₹ {{rec.paid}}</div>
+        <div class="due-inner"><span>Due : </span>₹ {{rec.due}}</div>
+      </div>
+    </div>
+  </ng-container>
+  
+  <ng-template #skeleton>
+    <div class="card" *ngFor="let rec of [1,2,3,4,5]">
+    <div class="semester"><ion-skeleton-text animated style="width: 50%;height: .8em;margin: 0 auto"></ion-skeleton-text></div>
+    <div class="total"><ion-skeleton-text animated style="width: 30%;height: 1em"></ion-skeleton-text></div>
+    <div class="paid-due">
+      <div class="paid-inner"><ion-skeleton-text animated style="width: 4em;height: 1em"></ion-skeleton-text></div>
+      <div class="due-inner"><ion-skeleton-text animated style="width: 4em;height: 1em"></ion-skeleton-text></div>
+    </div>
+  </div>
+  </ng-template>
+</ion-content>

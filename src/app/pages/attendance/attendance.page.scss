@@ -1,0 +1,74 @@
+ion-content{
+    ion-card{
+        border-radius: 1em;
+        overflow: hidden;
+        transition: .3s ease-in-out;
+        box-shadow: none;
+        // -webkit-transform: translate3d(0, 0, 0);
+        // transform: translate3d(0, 0, 0);
+
+        ion-card-header{
+            ion-card-title{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1em;
+                font-weight: 600;
+            }
+            ion-card-subtitle{
+                display: flex;
+                align-items: center;
+                text-transform: none;
+                .line {
+                    max-width: 70%;
+                    width: 0%;
+                    height: 7px;
+                    background-color: var(--ion-green);
+                    border-radius: 4px;
+                }
+                .dots{
+                    max-width: 30%;
+                    display: flex;
+                    .dot {
+                        margin-left: 5px;
+                        height: 8px;
+                        width: 8px;
+                        background-color: #bbb;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+        &-content{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            .rest{
+                h6{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 200;
+                    font-size: 0.8em;
+                    span{
+                        font-weight: 600;
+                        font-size: 1.2em;
+                    }
+                }
+            }
+            .total{
+                h6{
+                    color: #dbdbdb;
+                    text-align: right;
+                    font-size: 2em;
+                    font-weight: 600;
+                    margin: 0;
+                    span{
+                        font-size: .7em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.exit-enter-styles {
+    opacity: 0;
+    transform: translate3d(0, 10px, 0) scale(0.95);
+}

@@ -1,0 +1,75 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.attendance-modal,.edit-modal{
+    .modal-wrapper{
+        height: 90%;
+        width: 90%;
+        position: absolute;
+        top: 5%;
+        display: block;
+        background-color: transparent;
+    }
+    ion-backdrop{
+        background: linear-gradient(transparent,#000 15%);
+        --backdrop-opacity:.32;
+    }
+}
+
+.mat-list .mat-list-item-content{
+    justify-content: space-between;
+}
+
+.mat-menu-panel{
+    background: #1A1B1E !important;
+    border-radius: .7em !important;
+}
+
+.no-padding{
+    .mat-form-field-wrapper{
+        padding: 0;
+    }
+}
+
+.toastStyle{
+    color: #f4f5f8;
+    --background:#1A1B1E;
+}
+
+.picker-button{
+    color: var(--ion-red) !important;
+}
+
+.settings-alert{
+    .alert-button{
+        color: var(--ion-red) !important;
+    }
+}

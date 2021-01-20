@@ -1,0 +1,5229 @@
+[
+    {
+        "semCode": "2020ODDSEM"
+    },
+    {
+        "day": "monday",
+        "time": 15,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A4",
+            "A9"
+        ],
+        "subject": {
+            "name": "Mobile Communications",
+            "acronym": "",
+            "coursecode": "17B11EC731",
+            "refcode": "EC731"
+        },
+        "venue": null,
+        "teachers": [
+            "JG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 16,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "WC",
+            "MLSP",
+            "MIOT",
+            "A9"
+        ],
+        "subject": {
+            "name": "Advanced Digital Signal Processing",
+            "acronym": "ADSP",
+            "coursecode": "17M11EC118",
+            "refcode": "11EC118"
+        },
+        "venue": null,
+        "teachers": [
+            "VK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Enzymes in food processing",
+            "acronym": "",
+            "coursecode": "17B1NBT737",
+            "refcode": "BT737"
+        },
+        "venue": null,
+        "teachers": [
+            "NW"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Food Biotechnology ",
+            "acronym": "",
+            "coursecode": "17B1NBT731",
+            "refcode": "BT731"
+        },
+        "venue": null,
+        "teachers": [
+            "SMG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Stem Cells and Healthcare ",
+            "acronym": "",
+            "coursecode": "17B1NBT734",
+            "refcode": "BT734"
+        },
+        "venue": null,
+        "teachers": [
+            "SMO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 15,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A7",
+            "A8"
+        ],
+        "subject": {
+            "name": "Mobile Communications",
+            "acronym": "",
+            "coursecode": "17B11EC731",
+            "refcode": "EC731"
+        },
+        "venue": null,
+        "teachers": [
+            "VD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Advanced Cell Biology",
+            "acronym": "",
+            "coursecode": "16B1NBT734",
+            "refcode": "16BT734"
+        },
+        "venue": null,
+        "teachers": [
+            "PDS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Biocomputing and Applications",
+            "acronym": "",
+            "coursecode": "17B1NBT739",
+            "refcode": "BT739"
+        },
+        "venue": null,
+        "teachers": [
+            "CKJ"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Biostatistics and Its Applications",
+            "acronym": "",
+            "coursecode": "15B1NBT832",
+            "refcode": "BT832"
+        },
+        "venue": null,
+        "teachers": [
+            "SHM"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 15,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A3",
+            "A4",
+            "A5",
+            "A6"
+        ],
+        "subject": {
+            "name": "Optical Communications",
+            "acronym": "O.Comm",
+            "coursecode": "17B11EC733",
+            "refcode": "EC733"
+        },
+        "venue": null,
+        "teachers": [
+            "RK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A4",
+            "A7"
+        ],
+        "subject": {
+            "name": "Essentials of VLSI Testing",
+            "acronym": "",
+            "coursecode": "17B1NEC736",
+            "refcode": "NEC736"
+        },
+        "venue": null,
+        "teachers": [
+            "SHA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A3",
+            "A5",
+            "A6",
+            "A7",
+            "A8"
+        ],
+        "subject": {
+            "name": "Mobile Communications",
+            "acronym": "",
+            "coursecode": "17B11EC731",
+            "refcode": "EC731"
+        },
+        "venue": null,
+        "teachers": [
+            "VD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "RF and Microwave Engg.",
+            "acronym": "",
+            "coursecode": "17B1NEC734",
+            "refcode": "NEC734"
+        },
+        "venue": null,
+        "teachers": [
+            "MO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A5",
+            "A6",
+            "A8",
+            "A9",
+            "A10"
+        ],
+        "subject": {
+            "name": "Essentials of VLSI Testing",
+            "acronym": "",
+            "coursecode": "17B1NEC736",
+            "refcode": "NEC736"
+        },
+        "venue": null,
+        "teachers": [
+            "VIK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 15,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B5",
+            "B9",
+            "B8",
+            "B7",
+            "B6"
+        ],
+        "subject": {
+            "name": "Industrial Automation using IoT",
+            "acronym": "",
+            "coursecode": "19B12CS424",
+            "refcode": "CS424"
+        },
+        "venue": null,
+        "teachers": [
+            "CD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A8",
+            "A10"
+        ],
+        "subject": {
+            "name": "Essentials of VLSI Testing",
+            "acronym": "",
+            "coursecode": "17B1NEC736",
+            "refcode": "NEC736"
+        },
+        "venue": null,
+        "teachers": [
+            "VIK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A2",
+            "A4",
+            "A9",
+            "A10"
+        ],
+        "subject": {
+            "name": "Mobile Communications",
+            "acronym": "",
+            "coursecode": "17B11EC731",
+            "refcode": "EC731"
+        },
+        "venue": null,
+        "teachers": [
+            "JG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "Information Theory and Applications",
+            "acronym": "IT&A",
+            "coursecode": "17B1NEC735",
+            "refcode": "NEC735"
+        },
+        "venue": null,
+        "teachers": [
+            "NES"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B11",
+            "B12",
+            "B14"
+        ],
+        "subject": {
+            "name": "Large Scale Database Systems",
+            "acronym": "",
+            "coursecode": "18B12CS437",
+            "refcode": "CS437"
+        },
+        "venue": null,
+        "teachers": [
+            "IC"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 15,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B5",
+            "B8",
+            "B7",
+            "B6"
+        ],
+        "subject": {
+            "name": "IoT analytics",
+            "acronym": "",
+            "coursecode": "19B12CS426",
+            "refcode": "CS426"
+        },
+        "venue": null,
+        "teachers": [
+            "VIV"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A4",
+            "A7",
+            "A9"
+        ],
+        "subject": {
+            "name": "Fundamental of Embedded Systems",
+            "acronym": "FoES",
+            "coursecode": "15B1NEC733",
+            "refcode": "NEC733"
+        },
+        "venue": null,
+        "teachers": [
+            "GV"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "Optical Communications",
+            "acronym": "O.Comm",
+            "coursecode": "17B11EC733",
+            "refcode": "EC733"
+        },
+        "venue": null,
+        "teachers": [
+            "RK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "Multimedia Communications",
+            "acronym": "",
+            "coursecode": "18B12EC412",
+            "refcode": "12EC412"
+        },
+        "venue": null,
+        "teachers": [
+            "RIG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B11",
+            "B14",
+            "B13",
+            "B12"
+        ],
+        "subject": {
+            "name": "Machine Learning and NLP",
+            "acronym": "",
+            "coursecode": "17B1NCI731",
+            "refcode": "17B1NCI731"
+        },
+        "venue": null,
+        "teachers": [
+            "KVK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 15,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B5",
+            "B8",
+            "B7",
+            "B6"
+        ],
+        "subject": {
+            "name": "Introduction to DEVOPS",
+            "acronym": "",
+            "coursecode": "19B12CS427",
+            "refcode": "CS427"
+        },
+        "venue": null,
+        "teachers": [
+            "SHB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A5",
+            "A6"
+        ],
+        "subject": {
+            "name": "Fundamental of Embedded Systems",
+            "acronym": "FoES",
+            "coursecode": "15B1NEC733",
+            "refcode": "NEC733"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Large Scale Database Systems",
+            "acronym": "",
+            "coursecode": "18B12CS437",
+            "refcode": "CS437"
+        },
+        "venue": null,
+        "teachers": [
+            "IC"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Mathematical Foundations for Intelligent Systems",
+            "acronym": "",
+            "coursecode": "19B12CS422",
+            "refcode": "CS422"
+        },
+        "venue": null,
+        "teachers": [
+            "ARP",
+            "DL"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B11",
+            "B14",
+            "B13",
+            "B12"
+        ],
+        "subject": {
+            "name": "Social Network Analysis",
+            "acronym": "",
+            "coursecode": "15B1NCI732",
+            "refcode": "15B1NCI732"
+        },
+        "venue": null,
+        "teachers": [
+            "SJA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 15,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B6",
+            "B9",
+            "B8",
+            "B7"
+        ],
+        "subject": {
+            "name": "Computer Graphics",
+            "acronym": "",
+            "coursecode": "17B2NCI731",
+            "refcode": "17B2NCI731"
+        },
+        "venue": null,
+        "teachers": [
+            "PKAU",
+            "SUD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B6",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Ethical Hacking",
+            "acronym": "",
+            "coursecode": "18B12CS434",
+            "refcode": "CS434"
+        },
+        "venue": null,
+        "teachers": [
+            "PKAU",
+            "PRV"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Machine Learning and NLP",
+            "acronym": "",
+            "coursecode": "17B1NCI731",
+            "refcode": "17B1NCI731"
+        },
+        "venue": null,
+        "teachers": [
+            "KVK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Ethical Hacking",
+            "acronym": "",
+            "coursecode": "18B12CS434",
+            "refcode": "CS434"
+        },
+        "venue": null,
+        "teachers": [
+            "PRV",
+            "PKAU"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B7",
+            "B14",
+            "B13",
+            "B12",
+            "B11",
+            "B10",
+            "B9",
+            "B8"
+        ],
+        "subject": {
+            "name": "Computer and Web security",
+            "acronym": "",
+            "coursecode": "17B1NCI732",
+            "refcode": "17B1NCI732"
+        },
+        "venue": null,
+        "teachers": [
+            "SMT"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Software Construction",
+            "acronym": "",
+            "coursecode": "18B12CS436",
+            "refcode": "CS436"
+        },
+        "venue": null,
+        "teachers": [
+            "SKS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Social Network Analysis",
+            "acronym": "",
+            "coursecode": "15B1NCI732",
+            "refcode": "15B1NCI732"
+        },
+        "venue": null,
+        "teachers": [
+            "SJA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Software Construction",
+            "acronym": "",
+            "coursecode": "18B12CS436",
+            "refcode": "CS436"
+        },
+        "venue": null,
+        "teachers": [
+            "SKS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B8",
+            "B14",
+            "B13",
+            "B12",
+            "B11",
+            "B10",
+            "B9"
+        ],
+        "subject": {
+            "name": "Cloud Computing",
+            "acronym": "",
+            "coursecode": "17B1NCI747",
+            "refcode": "CI747"
+        },
+        "venue": null,
+        "teachers": [
+            "PK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B6",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Data Compression Algorithms",
+            "acronym": "",
+            "coursecode": "16B1NCI733",
+            "refcode": "CI733"
+        },
+        "venue": null,
+        "teachers": [
+            "TKT"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Computer and Web security",
+            "acronym": "",
+            "coursecode": "17B1NCI732",
+            "refcode": "17B1NCI732"
+        },
+        "venue": null,
+        "teachers": [
+            "SMT"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Data Compression Algorithms",
+            "acronym": "",
+            "coursecode": "16B1NCI733",
+            "refcode": "CI733"
+        },
+        "venue": null,
+        "teachers": [
+            "TKT"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 13,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C3",
+            "BT1"
+        ],
+        "subject": {
+            "name": "Molecular modeling and Drug Design ",
+            "acronym": "",
+            "coursecode": "17M11BT112",
+            "refcode": "BT112"
+        },
+        "venue": null,
+        "teachers": [
+            "SZ",
+            "CKJ"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C3",
+            "BT1"
+        ],
+        "subject": {
+            "name": "Biomolecules and cell communication",
+            "acronym": "",
+            "coursecode": "17M11BT111",
+            "refcode": "BT111"
+        },
+        "venue": null,
+        "teachers": [
+            "RG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Computing for data science",
+            "acronym": "",
+            "coursecode": "19B12CS423",
+            "refcode": "CS423"
+        },
+        "venue": null,
+        "teachers": [
+            "ADI"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Cloud Computing",
+            "acronym": "",
+            "coursecode": "17B1NCI747",
+            "refcode": "CI747"
+        },
+        "venue": null,
+        "teachers": [
+            "PK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 11,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B6",
+            "B10",
+            "B9",
+            "B8",
+            "B7"
+        ],
+        "subject": {
+            "name": "Computing for data science",
+            "acronym": "",
+            "coursecode": "19B12CS423",
+            "refcode": "CS423"
+        },
+        "venue": null,
+        "teachers": [
+            "ADI"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B10",
+            "B14",
+            "B13",
+            "B12",
+            "B11"
+        ],
+        "subject": {
+            "name": "Industrial Automation using IoT",
+            "acronym": "",
+            "coursecode": "19B12CS424",
+            "refcode": "CS424"
+        },
+        "venue": null,
+        "teachers": [
+            "CD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B11",
+            "B12",
+            "B14"
+        ],
+        "subject": {
+            "name": "IoT analytics",
+            "acronym": "",
+            "coursecode": "19B12CS426",
+            "refcode": "CS426"
+        },
+        "venue": null,
+        "teachers": [
+            "KRL"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B9",
+            "B14",
+            "B13",
+            "B12",
+            "B11",
+            "B10"
+        ],
+        "subject": {
+            "name": "Introduction to DEVOPS",
+            "acronym": "",
+            "coursecode": "19B12CS427",
+            "refcode": "CS427"
+        },
+        "venue": null,
+        "teachers": [
+            "SHB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 9,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "WC",
+            "MLSP",
+            "MIOT",
+            "A9"
+        ],
+        "subject": {
+            "name": "Advanced Digital Signal Processing",
+            "acronym": "ADSP",
+            "coursecode": "17M11EC118",
+            "refcode": "11EC118"
+        },
+        "venue": null,
+        "teachers": [
+            "VK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 10,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A4",
+            "A5",
+            "A6"
+        ],
+        "subject": {
+            "name": "RF and Microwave Engg.",
+            "acronym": "",
+            "coursecode": "17B1NEC734",
+            "refcode": "NEC734"
+        },
+        "venue": null,
+        "teachers": [
+            "MO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 11,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A2",
+            "A3"
+        ],
+        "subject": {
+            "name": "Essentials of VLSI Testing",
+            "acronym": "",
+            "coursecode": "17B1NEC736",
+            "refcode": "NEC736"
+        },
+        "venue": null,
+        "teachers": [
+            "SHA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 10,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A3",
+            "A4",
+            "A5",
+            "A6"
+        ],
+        "subject": {
+            "name": "Information Theory and Applications",
+            "acronym": "IT&A",
+            "coursecode": "17B1NEC735",
+            "refcode": "NEC735"
+        },
+        "venue": null,
+        "teachers": [
+            "NES"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 11,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A5",
+            "A6",
+            "A9"
+        ],
+        "subject": {
+            "name": "Essentials of VLSI Testing",
+            "acronym": "",
+            "coursecode": "17B1NEC736",
+            "refcode": "NEC736"
+        },
+        "venue": null,
+        "teachers": [
+            "VIK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 15,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A2",
+            "A3"
+        ],
+        "subject": {
+            "name": "Fundamental of Embedded Systems",
+            "acronym": "FoES",
+            "coursecode": "15B1NEC733",
+            "refcode": "NEC733"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Computing for data science",
+            "acronym": "",
+            "coursecode": "19B12CS423",
+            "refcode": "CS423"
+        },
+        "venue": null,
+        "teachers": [
+            "ADI",
+            "MGR"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A3",
+            "A4",
+            "A5",
+            "A10"
+        ],
+        "subject": {
+            "name": "Multimedia Communications",
+            "acronym": "",
+            "coursecode": "18B12EC412",
+            "refcode": "12EC412"
+        },
+        "venue": null,
+        "teachers": [
+            "BHG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 10,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A2",
+            "A6",
+            "A7",
+            "A8",
+            "A9"
+        ],
+        "subject": {
+            "name": "Multimedia Communications",
+            "acronym": "",
+            "coursecode": "18B12EC412",
+            "refcode": "12EC412"
+        },
+        "venue": null,
+        "teachers": [
+            "RIG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 11,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A8",
+            "A10"
+        ],
+        "subject": {
+            "name": "Fundamental of Embedded Systems",
+            "acronym": "FoES",
+            "coursecode": "15B1NEC733",
+            "refcode": "NEC733"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A5",
+            "A6",
+            "A8",
+            "A9",
+            "A10"
+        ],
+        "subject": {
+            "name": "Essentials of VLSI Testing",
+            "acronym": "",
+            "coursecode": "17B1NEC736",
+            "refcode": "NEC736"
+        },
+        "venue": null,
+        "teachers": [
+            "VIK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "WC",
+            "MLSP",
+            "MIOT",
+            "A9"
+        ],
+        "subject": {
+            "name": "Advanced Digital Communication Systems",
+            "acronym": "ADCS",
+            "coursecode": "20M41EC117",
+            "refcode": "41EC117"
+        },
+        "venue": null,
+        "teachers": [
+            "AGO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 16,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Mathematical Foundations for Intelligent Systems",
+            "acronym": "",
+            "coursecode": "19B12CS422",
+            "refcode": "CS422"
+        },
+        "venue": null,
+        "teachers": [
+            "ARP"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 10,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B5",
+            "B8",
+            "B7",
+            "B6"
+        ],
+        "subject": {
+            "name": "Software Construction",
+            "acronym": "",
+            "coursecode": "18B12CS436",
+            "refcode": "CS436"
+        },
+        "venue": null,
+        "teachers": [
+            "SKS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 11,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B7",
+            "B12",
+            "B11",
+            "B10",
+            "B9",
+            "B8"
+        ],
+        "subject": {
+            "name": "Applied Numerical Methods",
+            "acronym": "",
+            "coursecode": "17B1NMA732",
+            "refcode": "MA732"
+        },
+        "venue": null,
+        "teachers": [
+            "YG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 16,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B6",
+            "B14",
+            "B13",
+            "B12",
+            "B11",
+            "B10",
+            "B9",
+            "B8",
+            "B7"
+        ],
+        "subject": {
+            "name": "Mathematical Foundations for Intelligent Systems",
+            "acronym": "",
+            "coursecode": "19B12CS422",
+            "refcode": "CS422"
+        },
+        "venue": null,
+        "teachers": [
+            "DL"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 10,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B10",
+            "B14",
+            "B13",
+            "B12",
+            "B11"
+        ],
+        "subject": {
+            "name": "Computer Graphics",
+            "acronym": "",
+            "coursecode": "17B2NCI731",
+            "refcode": "17B2NCI731"
+        },
+        "venue": null,
+        "teachers": [
+            "PKAU",
+            "SUD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 16,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B7",
+            "B11",
+            "B10",
+            "B9",
+            "B8"
+        ],
+        "subject": {
+            "name": "Ethical Hacking",
+            "acronym": "",
+            "coursecode": "18B12CS434",
+            "refcode": "CS434"
+        },
+        "venue": null,
+        "teachers": [
+            "PKAU",
+            "PRV"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 10,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "C3",
+            "BT1"
+        ],
+        "subject": {
+            "name": "Molecular modeling and Drug Design ",
+            "acronym": "",
+            "coursecode": "17M11BT112",
+            "refcode": "BT112"
+        },
+        "venue": null,
+        "teachers": [
+            "SZ",
+            "CKJ"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 13,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C3",
+            "BT1"
+        ],
+        "subject": {
+            "name": "Biomolecules and cell communication",
+            "acronym": "",
+            "coursecode": "17M11BT111",
+            "refcode": "BT111"
+        },
+        "venue": null,
+        "teachers": [
+            "RG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C3",
+            "BT1"
+        ],
+        "subject": {
+            "name": "Molecular modeling and Drug Design ",
+            "acronym": "",
+            "coursecode": "17M11BT112",
+            "refcode": "BT112"
+        },
+        "venue": null,
+        "teachers": [
+            "SZ",
+            "CKJ"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 15,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "C3",
+            "BT1"
+        ],
+        "subject": {
+            "name": "Biomolecules and cell communication",
+            "acronym": "",
+            "coursecode": "17M11BT111",
+            "refcode": "BT111"
+        },
+        "venue": null,
+        "teachers": [
+            "RG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 16,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B7",
+            "B10",
+            "B9",
+            "B8"
+        ],
+        "subject": {
+            "name": "Data Compression Algorithms",
+            "acronym": "",
+            "coursecode": "16B1NCI733",
+            "refcode": "CI733"
+        },
+        "venue": null,
+        "teachers": [
+            "TKT"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "C1"
+        ],
+        "subject": {
+            "name": "Stem Cells and Healthcare ",
+            "acronym": "",
+            "coursecode": "17B1NBT734",
+            "refcode": "BT734"
+        },
+        "venue": null,
+        "teachers": [
+            "SMO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Food Biotechnology ",
+            "acronym": "",
+            "coursecode": "17B1NBT731",
+            "refcode": "BT731"
+        },
+        "venue": null,
+        "teachers": [
+            "SMG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Enzymes in food processing",
+            "acronym": "",
+            "coursecode": "17B1NBT737",
+            "refcode": "BT737"
+        },
+        "venue": null,
+        "teachers": [
+            "NW"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Food Biotechnology ",
+            "acronym": "",
+            "coursecode": "17B1NBT731",
+            "refcode": "BT731"
+        },
+        "venue": null,
+        "teachers": [
+            "SMG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Biostatistics and Its Applications",
+            "acronym": "",
+            "coursecode": "15B1NBT832",
+            "refcode": "BT832"
+        },
+        "venue": null,
+        "teachers": [
+            "SHM"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Biocomputing and Applications",
+            "acronym": "",
+            "coursecode": "17B1NBT739",
+            "refcode": "BT739"
+        },
+        "venue": null,
+        "teachers": [
+            "CKJ"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Advanced Cell Biology",
+            "acronym": "",
+            "coursecode": "16B1NBT734",
+            "refcode": "16BT734"
+        },
+        "venue": null,
+        "teachers": [
+            "PDS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Biocomputing and Applications",
+            "acronym": "",
+            "coursecode": "17B1NBT739",
+            "refcode": "BT739"
+        },
+        "venue": null,
+        "teachers": [
+            "CKJ"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "WC",
+            "MLSP",
+            "MIOT",
+            "A9"
+        ],
+        "subject": {
+            "name": "Advanced Digital Signal Processing",
+            "acronym": "ADSP",
+            "coursecode": "17M11EC118",
+            "refcode": "11EC118"
+        },
+        "venue": null,
+        "teachers": [
+            "VK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 16,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "WC",
+            "MLSP",
+            "MIOT",
+            "A9"
+        ],
+        "subject": {
+            "name": "Advanced Digital Communication Systems",
+            "acronym": "ADCS",
+            "coursecode": "20M41EC117",
+            "refcode": "41EC117"
+        },
+        "venue": null,
+        "teachers": [
+            "AGO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A2",
+            "A3"
+        ],
+        "subject": {
+            "name": "RF and Microwave Engg.",
+            "acronym": "",
+            "coursecode": "17B1NEC734",
+            "refcode": "NEC734"
+        },
+        "venue": null,
+        "teachers": [
+            "MO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A2",
+            "A4",
+            "A9",
+            "A10"
+        ],
+        "subject": {
+            "name": "Mobile Communications",
+            "acronym": "",
+            "coursecode": "17B11EC731",
+            "refcode": "EC731"
+        },
+        "venue": null,
+        "teachers": [
+            "JG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A5",
+            "A6",
+            "A8",
+            "A10"
+        ],
+        "subject": {
+            "name": "Fundamental of Embedded Systems",
+            "acronym": "FoES",
+            "coursecode": "15B1NEC733",
+            "refcode": "NEC733"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A2",
+            "A3"
+        ],
+        "subject": {
+            "name": "Mobile Communications",
+            "acronym": "",
+            "coursecode": "17B11EC731",
+            "refcode": "EC731"
+        },
+        "venue": null,
+        "teachers": [
+            "JG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A10",
+            "A2"
+        ],
+        "subject": {
+            "name": "Information Theory and Applications",
+            "acronym": "IT&A",
+            "coursecode": "17B1NEC735",
+            "refcode": "NEC735"
+        },
+        "venue": null,
+        "teachers": [
+            "NES"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "Optical Communications",
+            "acronym": "O.Comm",
+            "coursecode": "17B11EC733",
+            "refcode": "EC733"
+        },
+        "venue": null,
+        "teachers": [
+            "RK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A7"
+        ],
+        "subject": {
+            "name": "Essentials of VLSI Testing",
+            "acronym": "",
+            "coursecode": "17B1NEC736",
+            "refcode": "NEC736"
+        },
+        "venue": null,
+        "teachers": [
+            "SHA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A5",
+            "A6"
+        ],
+        "subject": {
+            "name": "Mobile Communications",
+            "acronym": "",
+            "coursecode": "17B11EC731",
+            "refcode": "EC731"
+        },
+        "venue": null,
+        "teachers": [
+            "VD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A3",
+            "A5",
+            "A6",
+            "A7",
+            "A8"
+        ],
+        "subject": {
+            "name": "Mobile Communications",
+            "acronym": "",
+            "coursecode": "17B11EC731",
+            "refcode": "EC731"
+        },
+        "venue": null,
+        "teachers": [
+            "VD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A7",
+            "A9"
+        ],
+        "subject": {
+            "name": "Fundamental of Embedded Systems",
+            "acronym": "FoES",
+            "coursecode": "15B1NEC733",
+            "refcode": "NEC733"
+        },
+        "venue": null,
+        "teachers": [
+            "GV"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A10",
+            "A2"
+        ],
+        "subject": {
+            "name": "Optical Communications",
+            "acronym": "O.Comm",
+            "coursecode": "17B11EC733",
+            "refcode": "EC733"
+        },
+        "venue": null,
+        "teachers": [
+            "RK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Industrial Automation using IoT",
+            "acronym": "",
+            "coursecode": "19B12CS424",
+            "refcode": "CS424"
+        },
+        "venue": null,
+        "teachers": [
+            "CD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Large Scale Database Systems",
+            "acronym": "",
+            "coursecode": "18B12CS437",
+            "refcode": "CS437"
+        },
+        "venue": null,
+        "teachers": [
+            "IC"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Industrial Automation using IoT",
+            "acronym": "",
+            "coursecode": "19B12CS424",
+            "refcode": "CS424"
+        },
+        "venue": null,
+        "teachers": [
+            "CD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B6",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Large Scale Database Systems",
+            "acronym": "",
+            "coursecode": "18B12CS437",
+            "refcode": "CS437"
+        },
+        "venue": null,
+        "teachers": [
+            "IC"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "IoT analytics",
+            "acronym": "",
+            "coursecode": "19B12CS426",
+            "refcode": "CS426"
+        },
+        "venue": null,
+        "teachers": [
+            "VIV"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Machine Learning and NLP",
+            "acronym": "",
+            "coursecode": "17B1NCI731",
+            "refcode": "17B1NCI731"
+        },
+        "venue": null,
+        "teachers": [
+            "KVK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B8",
+            "B7",
+            "B6",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "IoT analytics",
+            "acronym": "",
+            "coursecode": "19B12CS426",
+            "refcode": "CS426"
+        },
+        "venue": null,
+        "teachers": [
+            "VIV"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Machine Learning and NLP",
+            "acronym": "",
+            "coursecode": "17B1NCI731",
+            "refcode": "17B1NCI731"
+        },
+        "venue": null,
+        "teachers": [
+            "KVK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B9",
+            "B10",
+            "B13"
+        ],
+        "subject": {
+            "name": "IoT analytics",
+            "acronym": "",
+            "coursecode": "19B12CS426",
+            "refcode": "CS426"
+        },
+        "venue": null,
+        "teachers": [
+            "KRL"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Social Network Analysis",
+            "acronym": "",
+            "coursecode": "15B1NCI732",
+            "refcode": "15B1NCI732"
+        },
+        "venue": null,
+        "teachers": [
+            "SJA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B9",
+            "B14",
+            "B13",
+            "B12",
+            "B11",
+            "B10"
+        ],
+        "subject": {
+            "name": "IoT analytics",
+            "acronym": "",
+            "coursecode": "19B12CS426",
+            "refcode": "CS426"
+        },
+        "venue": null,
+        "teachers": [
+            "KRL"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Social Network Analysis",
+            "acronym": "",
+            "coursecode": "15B1NCI732",
+            "refcode": "15B1NCI732"
+        },
+        "venue": null,
+        "teachers": [
+            "SJA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Introduction to DEVOPS",
+            "acronym": "",
+            "coursecode": "19B12CS427",
+            "refcode": "CS427"
+        },
+        "venue": null,
+        "teachers": [
+            "SHB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Computer and Web security",
+            "acronym": "",
+            "coursecode": "17B1NCI732",
+            "refcode": "17B1NCI732"
+        },
+        "venue": null,
+        "teachers": [
+            "SMT"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Introduction to DEVOPS",
+            "acronym": "",
+            "coursecode": "19B12CS427",
+            "refcode": "CS427"
+        },
+        "venue": null,
+        "teachers": [
+            "SHB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B6",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Computer and Web security",
+            "acronym": "",
+            "coursecode": "17B1NCI732",
+            "refcode": "17B1NCI732"
+        },
+        "venue": null,
+        "teachers": [
+            "SMT"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Computer Graphics",
+            "acronym": "",
+            "coursecode": "17B2NCI731",
+            "refcode": "17B2NCI731"
+        },
+        "venue": null,
+        "teachers": [
+            "PKAU",
+            "SUD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Cloud Computing",
+            "acronym": "",
+            "coursecode": "17B1NCI747",
+            "refcode": "CI747"
+        },
+        "venue": null,
+        "teachers": [
+            "PK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Computer Graphics",
+            "acronym": "",
+            "coursecode": "17B2NCI731",
+            "refcode": "17B2NCI731"
+        },
+        "venue": null,
+        "teachers": [
+            "PKAU",
+            "SUD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 14,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B7",
+            "B6",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Cloud Computing",
+            "acronym": "",
+            "coursecode": "17B1NCI747",
+            "refcode": "CI747"
+        },
+        "venue": null,
+        "teachers": [
+            "PK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B9",
+            "B8",
+            "B7",
+            "B6",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Customer Relationship Management",
+            "acronym": "",
+            "coursecode": "17B1NHS731",
+            "refcode": "HS731"
+        },
+        "venue": null,
+        "teachers": [
+            "SA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Gender Studies",
+            "acronym": "",
+            "coursecode": "16B1NHS831",
+            "refcode": "HS831"
+        },
+        "venue": null,
+        "teachers": [
+            "PP"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "RF and Microwave Engg.",
+            "acronym": "",
+            "coursecode": "17B1NEC734",
+            "refcode": "NEC734"
+        },
+        "venue": null,
+        "teachers": [
+            "MO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 16,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A7",
+            "A8",
+            "A9"
+        ],
+        "subject": {
+            "name": "Information Theory and Applications",
+            "acronym": "IT&A",
+            "coursecode": "17B1NEC735",
+            "refcode": "NEC735"
+        },
+        "venue": null,
+        "teachers": [
+            "NES"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B10",
+            "B9",
+            "B8",
+            "B7",
+            "B6",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Gender Studies",
+            "acronym": "",
+            "coursecode": "16B1NHS831",
+            "refcode": "HS831"
+        },
+        "venue": null,
+        "teachers": [
+            "PP"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Human Resource Analytics",
+            "acronym": "",
+            "coursecode": "18B12HS412",
+            "refcode": "HS412"
+        },
+        "venue": null,
+        "teachers": [
+            "KMB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "Information Theory and Applications",
+            "acronym": "IT&A",
+            "coursecode": "17B1NEC735",
+            "refcode": "NEC735"
+        },
+        "venue": null,
+        "teachers": [
+            "NES"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A5",
+            "A6",
+            "A8",
+            "A9",
+            "A10"
+        ],
+        "subject": {
+            "name": "Essentials of VLSI Testing",
+            "acronym": "",
+            "coursecode": "17B1NEC736",
+            "refcode": "NEC736"
+        },
+        "venue": null,
+        "teachers": [
+            "VIK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 16,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B12",
+            "B14",
+            "B13"
+        ],
+        "subject": {
+            "name": "Ethical Hacking",
+            "acronym": "",
+            "coursecode": "18B12CS434",
+            "refcode": "CS434"
+        },
+        "venue": null,
+        "teachers": [
+            "PKAU",
+            "PRV"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B11",
+            "B10",
+            "B9",
+            "B8",
+            "B7",
+            "B6",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Human Resource Analytics",
+            "acronym": "",
+            "coursecode": "18B12HS412",
+            "refcode": "HS412"
+        },
+        "venue": null,
+        "teachers": [
+            "KMB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Psychology of Personality",
+            "acronym": "",
+            "coursecode": "18B12HS211",
+            "refcode": "HS211"
+        },
+        "venue": null,
+        "teachers": [
+            "BB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "Multimedia Communications",
+            "acronym": "",
+            "coursecode": "18B12EC412",
+            "refcode": "12EC412"
+        },
+        "venue": null,
+        "teachers": [
+            "RIG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C3",
+            "BT1"
+        ],
+        "subject": {
+            "name": "Molecular modeling and Drug Design ",
+            "acronym": "",
+            "coursecode": "17M11BT112",
+            "refcode": "BT112"
+        },
+        "venue": null,
+        "teachers": [
+            "SZ",
+            "CKJ"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C3",
+            "BT1"
+        ],
+        "subject": {
+            "name": "Biomolecules and cell communication",
+            "acronym": "",
+            "coursecode": "17M11BT111",
+            "refcode": "BT111"
+        },
+        "venue": null,
+        "teachers": [
+            "RG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 16,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B9",
+            "B14",
+            "B13",
+            "B12",
+            "B11",
+            "B10"
+        ],
+        "subject": {
+            "name": "Software Construction",
+            "acronym": "",
+            "coursecode": "18B12CS436",
+            "refcode": "CS436"
+        },
+        "venue": null,
+        "teachers": [
+            "SKS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B12",
+            "B11",
+            "B10",
+            "B9",
+            "B8",
+            "B7",
+            "B6",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "Psychology of Personality",
+            "acronym": "",
+            "coursecode": "18B12HS211",
+            "refcode": "HS211"
+        },
+        "venue": null,
+        "teachers": [
+            "BB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Customer Relationship Management",
+            "acronym": "",
+            "coursecode": "17B1NHS731",
+            "refcode": "HS731"
+        },
+        "venue": null,
+        "teachers": [
+            "SA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 16,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B11",
+            "B14",
+            "B13",
+            "B12"
+        ],
+        "subject": {
+            "name": "Data Compression Algorithms",
+            "acronym": "",
+            "coursecode": "16B1NCI733",
+            "refcode": "CI733"
+        },
+        "venue": null,
+        "teachers": [
+            "TKT"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "Applied Numerical Methods",
+            "acronym": "",
+            "coursecode": "17B1NMA732",
+            "refcode": "MA732"
+        },
+        "venue": null,
+        "teachers": [
+            "YG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Healthcare Marketplace ",
+            "acronym": "HM",
+            "coursecode": "17B1NBT732",
+            "refcode": "BT732"
+        },
+        "venue": null,
+        "teachers": [
+            "IS",
+            "SHD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Stem Cells and Healthcare ",
+            "acronym": "",
+            "coursecode": "17B1NBT734",
+            "refcode": "BT734"
+        },
+        "venue": null,
+        "teachers": [
+            "SMO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 16,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B11",
+            "B14",
+            "B13",
+            "B12"
+        ],
+        "subject": {
+            "name": "Computing for data science",
+            "acronym": "",
+            "coursecode": "19B12CS423",
+            "refcode": "CS423"
+        },
+        "venue": null,
+        "teachers": [
+            "MGR"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "NanoScience and Technology",
+            "acronym": "",
+            "coursecode": "17B1NPH732",
+            "refcode": "PH732"
+        },
+        "venue": null,
+        "teachers": [
+            "NG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Stress: Biology, Behaviour and Management ",
+            "acronym": "S.Bio",
+            "coursecode": "17B1NBT733",
+            "refcode": "BT733"
+        },
+        "venue": null,
+        "teachers": [
+            "VGU"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Biostatistics and Its Applications",
+            "acronym": "",
+            "coursecode": "15B1NBT832",
+            "refcode": "BT832"
+        },
+        "venue": null,
+        "teachers": [
+            "SHM"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 16,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A7",
+            "A8",
+            "A9",
+            "A10"
+        ],
+        "subject": {
+            "name": "RF and Microwave Engg.",
+            "acronym": "",
+            "coursecode": "17B1NEC734",
+            "refcode": "NEC734"
+        },
+        "venue": null,
+        "teachers": [
+            "MO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "Superconducting Materials, Magnets and Devices",
+            "acronym": "",
+            "coursecode": "20B12PH411",
+            "refcode": "PH411"
+        },
+        "venue": null,
+        "teachers": [
+            "DIN"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Bioinformatic Algorithms",
+            "acronym": "",
+            "coursecode": "17B1NCI736",
+            "refcode": "17B1NCI736"
+        },
+        "venue": null,
+        "teachers": [
+            "PRN"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Mathematical Foundations for Intelligent Systems",
+            "acronym": "",
+            "coursecode": "19B12CS422",
+            "refcode": "CS422"
+        },
+        "venue": null,
+        "teachers": [
+            "ARP",
+            "DL"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Applied Numerical Methods",
+            "acronym": "",
+            "coursecode": "17B1NMA732",
+            "refcode": "MA732"
+        },
+        "venue": null,
+        "teachers": [
+            "YG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Ethical Hacking",
+            "acronym": "",
+            "coursecode": "18B12CS434",
+            "refcode": "CS434"
+        },
+        "venue": null,
+        "teachers": [
+            "PRV",
+            "PKAU"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "NanoScience and Technology",
+            "acronym": "",
+            "coursecode": "17B1NPH732",
+            "refcode": "PH732"
+        },
+        "venue": null,
+        "teachers": [
+            "NG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Software Construction",
+            "acronym": "",
+            "coursecode": "18B12CS436",
+            "refcode": "CS436"
+        },
+        "venue": null,
+        "teachers": [
+            "SKS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Superconducting Materials, Magnets and Devices",
+            "acronym": "",
+            "coursecode": "20B12PH411",
+            "refcode": "PH411"
+        },
+        "venue": null,
+        "teachers": [
+            "DIN"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Computing for data science",
+            "acronym": "",
+            "coursecode": "19B12CS423",
+            "refcode": "CS423"
+        },
+        "venue": null,
+        "teachers": [
+            "ADI",
+            "MGR"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Data Compression Algorithms",
+            "acronym": "",
+            "coursecode": "16B1NCI733",
+            "refcode": "CI733"
+        },
+        "venue": null,
+        "teachers": [
+            "TKT"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "WC",
+            "MLSP",
+            "MIOT",
+            "A9"
+        ],
+        "subject": {
+            "name": "Advanced Digital Communication Systems",
+            "acronym": "ADCS",
+            "coursecode": "20M41EC117",
+            "refcode": "41EC117"
+        },
+        "venue": null,
+        "teachers": [
+            "AGO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A7",
+            "A9"
+        ],
+        "subject": {
+            "name": "Fundamental of Embedded Systems",
+            "acronym": "FoES",
+            "coursecode": "15B1NEC733",
+            "refcode": "NEC733"
+        },
+        "venue": null,
+        "teachers": [
+            "GV"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B10",
+            "B14",
+            "B13",
+            "B12",
+            "B11",
+            "A",
+            "C"
+        ],
+        "subject": {
+            "name": "Customer Relationship Management",
+            "acronym": "",
+            "coursecode": "17B1NHS731",
+            "refcode": "HS731"
+        },
+        "venue": null,
+        "teachers": [
+            "SA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A5",
+            "A6",
+            "A8",
+            "A10"
+        ],
+        "subject": {
+            "name": "Fundamental of Embedded Systems",
+            "acronym": "FoES",
+            "coursecode": "15B1NEC733",
+            "refcode": "NEC733"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Customer Relationship Management",
+            "acronym": "",
+            "coursecode": "17B1NHS731",
+            "refcode": "HS731"
+        },
+        "venue": null,
+        "teachers": [
+            "SA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "RF and Microwave Engg.",
+            "acronym": "",
+            "coursecode": "17B1NEC734",
+            "refcode": "NEC734"
+        },
+        "venue": null,
+        "teachers": [
+            "MO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B11",
+            "B14",
+            "B13",
+            "B12",
+            "A",
+            "C"
+        ],
+        "subject": {
+            "name": "Gender Studies",
+            "acronym": "",
+            "coursecode": "16B1NHS831",
+            "refcode": "HS831"
+        },
+        "venue": null,
+        "teachers": [
+            "PP"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A7"
+        ],
+        "subject": {
+            "name": "Essentials of VLSI Testing",
+            "acronym": "",
+            "coursecode": "17B1NEC736",
+            "refcode": "NEC736"
+        },
+        "venue": null,
+        "teachers": [
+            "SHA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Gender Studies",
+            "acronym": "",
+            "coursecode": "16B1NHS831",
+            "refcode": "HS831"
+        },
+        "venue": null,
+        "teachers": [
+            "PP"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "Information Theory and Applications",
+            "acronym": "IT&A",
+            "coursecode": "17B1NEC735",
+            "refcode": "NEC735"
+        },
+        "venue": null,
+        "teachers": [
+            "NES"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B12",
+            "B14",
+            "B13",
+            "A",
+            "C"
+        ],
+        "subject": {
+            "name": "Human Resource Analytics",
+            "acronym": "",
+            "coursecode": "18B12HS412",
+            "refcode": "HS412"
+        },
+        "venue": null,
+        "teachers": [
+            "KMB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Human Resource Analytics",
+            "acronym": "",
+            "coursecode": "18B12HS412",
+            "refcode": "HS412"
+        },
+        "venue": null,
+        "teachers": [
+            "KMB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "Multimedia Communications",
+            "acronym": "",
+            "coursecode": "18B12EC412",
+            "refcode": "12EC412"
+        },
+        "venue": null,
+        "teachers": [
+            "RIG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B13",
+            "A",
+            "C"
+        ],
+        "subject": {
+            "name": "Psychology of Personality",
+            "acronym": "",
+            "coursecode": "18B12HS211",
+            "refcode": "HS211"
+        },
+        "venue": null,
+        "teachers": [
+            "BB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Psychology of Personality",
+            "acronym": "",
+            "coursecode": "18B12HS211",
+            "refcode": "HS211"
+        },
+        "venue": null,
+        "teachers": [
+            "BB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Healthcare Marketplace ",
+            "acronym": "HM",
+            "coursecode": "17B1NBT732",
+            "refcode": "BT732"
+        },
+        "venue": null,
+        "teachers": [
+            "IS",
+            "SHD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Enzymes in food processing",
+            "acronym": "",
+            "coursecode": "17B1NBT737",
+            "refcode": "BT737"
+        },
+        "venue": null,
+        "teachers": [
+            "NW"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Healthcare Marketplace ",
+            "acronym": "HM",
+            "coursecode": "17B1NBT732",
+            "refcode": "BT732"
+        },
+        "venue": null,
+        "teachers": [
+            "IS",
+            "SHD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Stem Cells and Healthcare ",
+            "acronym": "",
+            "coursecode": "17B1NBT734",
+            "refcode": "BT734"
+        },
+        "venue": null,
+        "teachers": [
+            "SMO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Stress: Biology, Behaviour and Management ",
+            "acronym": "S.Bio",
+            "coursecode": "17B1NBT733",
+            "refcode": "BT733"
+        },
+        "venue": null,
+        "teachers": [
+            "VGU"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Advanced Cell Biology",
+            "acronym": "",
+            "coursecode": "16B1NBT734",
+            "refcode": "16BT734"
+        },
+        "venue": null,
+        "teachers": [
+            "PDS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Stress: Biology, Behaviour and Management ",
+            "acronym": "S.Bio",
+            "coursecode": "17B1NBT733",
+            "refcode": "BT733"
+        },
+        "venue": null,
+        "teachers": [
+            "VGU"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Biostatistics and Its Applications",
+            "acronym": "",
+            "coursecode": "15B1NBT832",
+            "refcode": "BT832"
+        },
+        "venue": null,
+        "teachers": [
+            "SHM"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Bioinformatic Algorithms",
+            "acronym": "",
+            "coursecode": "17B1NCI736",
+            "refcode": "17B1NCI736"
+        },
+        "venue": null,
+        "teachers": [
+            "PRN"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Industrial Automation using IoT",
+            "acronym": "",
+            "coursecode": "19B12CS424",
+            "refcode": "CS424"
+        },
+        "venue": null,
+        "teachers": [
+            "CD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Bioinformatic Algorithms",
+            "acronym": "",
+            "coursecode": "17B1NCI736",
+            "refcode": "17B1NCI736"
+        },
+        "venue": null,
+        "teachers": [
+            "PRN"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Mathematical Foundations for Intelligent Systems",
+            "acronym": "",
+            "coursecode": "19B12CS422",
+            "refcode": "CS422"
+        },
+        "venue": null,
+        "teachers": [
+            "ARP",
+            "DL"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B6",
+            "B5",
+            "B4",
+            "B3",
+            "B2",
+            "C"
+        ],
+        "subject": {
+            "name": "Applied Numerical Methods",
+            "acronym": "",
+            "coursecode": "17B1NMA732",
+            "refcode": "MA732"
+        },
+        "venue": null,
+        "teachers": [
+            "YG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B8",
+            "B7",
+            "B6",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "IoT analytics",
+            "acronym": "",
+            "coursecode": "19B12CS426",
+            "refcode": "CS426"
+        },
+        "venue": null,
+        "teachers": [
+            "VIV"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Applied Numerical Methods",
+            "acronym": "",
+            "coursecode": "17B1NMA732",
+            "refcode": "MA732"
+        },
+        "venue": null,
+        "teachers": [
+            "YG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Ethical Hacking",
+            "acronym": "",
+            "coursecode": "18B12CS434",
+            "refcode": "CS434"
+        },
+        "venue": null,
+        "teachers": [
+            "PRV",
+            "PKAU"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B",
+            "C"
+        ],
+        "subject": {
+            "name": "NanoScience and Technology",
+            "acronym": "",
+            "coursecode": "17B1NPH732",
+            "refcode": "PH732"
+        },
+        "venue": null,
+        "teachers": [
+            "NG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B9",
+            "B14",
+            "B13",
+            "B12",
+            "B11",
+            "B10"
+        ],
+        "subject": {
+            "name": "IoT analytics",
+            "acronym": "",
+            "coursecode": "19B12CS426",
+            "refcode": "CS426"
+        },
+        "venue": null,
+        "teachers": [
+            "KRL"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "NanoScience and Technology",
+            "acronym": "",
+            "coursecode": "17B1NPH732",
+            "refcode": "PH732"
+        },
+        "venue": null,
+        "teachers": [
+            "NG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Software Construction",
+            "acronym": "",
+            "coursecode": "18B12CS436",
+            "refcode": "CS436"
+        },
+        "venue": null,
+        "teachers": [
+            "SKS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B",
+            "C"
+        ],
+        "subject": {
+            "name": "Superconducting Materials, Magnets and Devices",
+            "acronym": "",
+            "coursecode": "20B12PH411",
+            "refcode": "PH411"
+        },
+        "venue": null,
+        "teachers": [
+            "DIN"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Introduction to DEVOPS",
+            "acronym": "",
+            "coursecode": "19B12CS427",
+            "refcode": "CS427"
+        },
+        "venue": null,
+        "teachers": [
+            "SHB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Superconducting Materials, Magnets and Devices",
+            "acronym": "",
+            "coursecode": "20B12PH411",
+            "refcode": "PH411"
+        },
+        "venue": null,
+        "teachers": [
+            "DIN"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Computing for data science",
+            "acronym": "",
+            "coursecode": "19B12CS423",
+            "refcode": "CS423"
+        },
+        "venue": null,
+        "teachers": [
+            "ADI",
+            "MGR"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Computer Graphics",
+            "acronym": "",
+            "coursecode": "17B2NCI731",
+            "refcode": "17B2NCI731"
+        },
+        "venue": null,
+        "teachers": [
+            "PKAU",
+            "SUD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Data Compression Algorithms",
+            "acronym": "",
+            "coursecode": "16B1NCI733",
+            "refcode": "CI733"
+        },
+        "venue": null,
+        "teachers": [
+            "TKT"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 9,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A2",
+            "A4",
+            "A9",
+            "A10"
+        ],
+        "subject": {
+            "name": "Mobile Communications",
+            "acronym": "",
+            "coursecode": "17B11EC731",
+            "refcode": "EC731"
+        },
+        "venue": null,
+        "teachers": [
+            "JG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A5",
+            "A6",
+            "A8",
+            "A10"
+        ],
+        "subject": {
+            "name": "Fundamental of Embedded Systems",
+            "acronym": "FoES",
+            "coursecode": "15B1NEC733",
+            "refcode": "NEC733"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Customer Relationship Management",
+            "acronym": "",
+            "coursecode": "17B1NHS731",
+            "refcode": "HS731"
+        },
+        "venue": null,
+        "teachers": [
+            "SA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "WC",
+            "MLSP",
+            "MIOT",
+            "A9"
+        ],
+        "subject": {
+            "name": "Advanced Digital Signal Processing",
+            "acronym": "ADSP",
+            "coursecode": "17M11EC118",
+            "refcode": "11EC118"
+        },
+        "venue": null,
+        "teachers": [
+            "VK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "WC",
+            "MLSP",
+            "MIOT",
+            "A9"
+        ],
+        "subject": {
+            "name": "Advanced Digital Communication Systems",
+            "acronym": "ADCS",
+            "coursecode": "20M41EC117",
+            "refcode": "41EC117"
+        },
+        "venue": null,
+        "teachers": [
+            "AGO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Healthcare Marketplace ",
+            "acronym": "HM",
+            "coursecode": "17B1NBT732",
+            "refcode": "BT732"
+        },
+        "venue": null,
+        "teachers": [
+            "IS",
+            "SHD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 9,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A"
+        ],
+        "subject": {
+            "name": "Optical Communications",
+            "acronym": "O.Comm",
+            "coursecode": "17B11EC733",
+            "refcode": "EC733"
+        },
+        "venue": null,
+        "teachers": [
+            "RK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A7"
+        ],
+        "subject": {
+            "name": "Essentials of VLSI Testing",
+            "acronym": "",
+            "coursecode": "17B1NEC736",
+            "refcode": "NEC736"
+        },
+        "venue": null,
+        "teachers": [
+            "SHA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Gender Studies",
+            "acronym": "",
+            "coursecode": "16B1NHS831",
+            "refcode": "HS831"
+        },
+        "venue": null,
+        "teachers": [
+            "PP"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 12,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A10"
+        ],
+        "subject": {
+            "name": "Mobile Communications",
+            "acronym": "",
+            "coursecode": "17B11EC731",
+            "refcode": "EC731"
+        },
+        "venue": null,
+        "teachers": [
+            "JG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 9,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A3",
+            "A5",
+            "A6",
+            "A7",
+            "A8"
+        ],
+        "subject": {
+            "name": "Mobile Communications",
+            "acronym": "",
+            "coursecode": "17B11EC731",
+            "refcode": "EC731"
+        },
+        "venue": null,
+        "teachers": [
+            "VD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A7",
+            "A9"
+        ],
+        "subject": {
+            "name": "Fundamental of Embedded Systems",
+            "acronym": "FoES",
+            "coursecode": "15B1NEC733",
+            "refcode": "NEC733"
+        },
+        "venue": null,
+        "teachers": [
+            "GV"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Human Resource Analytics",
+            "acronym": "",
+            "coursecode": "18B12HS412",
+            "refcode": "HS412"
+        },
+        "venue": null,
+        "teachers": [
+            "KMB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 12,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A7",
+            "A8",
+            "A9"
+        ],
+        "subject": {
+            "name": "Optical Communications",
+            "acronym": "O.Comm",
+            "coursecode": "17B11EC733",
+            "refcode": "EC733"
+        },
+        "venue": null,
+        "teachers": [
+            "RK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Psychology of Personality",
+            "acronym": "",
+            "coursecode": "18B12HS211",
+            "refcode": "HS211"
+        },
+        "venue": null,
+        "teachers": [
+            "BB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 9,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Food Biotechnology ",
+            "acronym": "",
+            "coursecode": "17B1NBT731",
+            "refcode": "BT731"
+        },
+        "venue": null,
+        "teachers": [
+            "SMG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Enzymes in food processing",
+            "acronym": "",
+            "coursecode": "17B1NBT737",
+            "refcode": "BT737"
+        },
+        "venue": null,
+        "teachers": [
+            "NW"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Applied Numerical Methods",
+            "acronym": "",
+            "coursecode": "17B1NMA732",
+            "refcode": "MA732"
+        },
+        "venue": null,
+        "teachers": [
+            "YG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 12,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "C2",
+            "C3"
+        ],
+        "subject": {
+            "name": "Stem Cells and Healthcare ",
+            "acronym": "",
+            "coursecode": "17B1NBT734",
+            "refcode": "BT734"
+        },
+        "venue": null,
+        "teachers": [
+            "SMO"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 9,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Biocomputing and Applications",
+            "acronym": "",
+            "coursecode": "17B1NBT739",
+            "refcode": "BT739"
+        },
+        "venue": null,
+        "teachers": [
+            "CKJ"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "C"
+        ],
+        "subject": {
+            "name": "Advanced Cell Biology",
+            "acronym": "",
+            "coursecode": "16B1NBT734",
+            "refcode": "16BT734"
+        },
+        "venue": null,
+        "teachers": [
+            "PDS"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Stress: Biology, Behaviour and Management ",
+            "acronym": "S.Bio",
+            "coursecode": "17B1NBT733",
+            "refcode": "BT733"
+        },
+        "venue": null,
+        "teachers": [
+            "VGU"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 9,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Large Scale Database Systems",
+            "acronym": "",
+            "coursecode": "18B12CS437",
+            "refcode": "CS437"
+        },
+        "venue": null,
+        "teachers": [
+            "IC"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Industrial Automation using IoT",
+            "acronym": "",
+            "coursecode": "19B12CS424",
+            "refcode": "CS424"
+        },
+        "venue": null,
+        "teachers": [
+            "CD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Bioinformatic Algorithms",
+            "acronym": "",
+            "coursecode": "17B1NCI736",
+            "refcode": "17B1NCI736"
+        },
+        "venue": null,
+        "teachers": [
+            "PRN"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 12,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B7",
+            "B10",
+            "B9",
+            "B8"
+        ],
+        "subject": {
+            "name": "Large Scale Database Systems",
+            "acronym": "",
+            "coursecode": "18B12CS437",
+            "refcode": "CS437"
+        },
+        "venue": null,
+        "teachers": [
+            "IC"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 9,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Machine Learning and NLP",
+            "acronym": "",
+            "coursecode": "17B1NCI731",
+            "refcode": "17B1NCI731"
+        },
+        "venue": null,
+        "teachers": [
+            "KVK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B1",
+            "B8",
+            "B7",
+            "B6",
+            "B5",
+            "B4",
+            "B3",
+            "B2"
+        ],
+        "subject": {
+            "name": "IoT analytics",
+            "acronym": "",
+            "coursecode": "19B12CS426",
+            "refcode": "CS426"
+        },
+        "venue": null,
+        "teachers": [
+            "VIV"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "NanoScience and Technology",
+            "acronym": "",
+            "coursecode": "17B1NPH732",
+            "refcode": "PH732"
+        },
+        "venue": null,
+        "teachers": [
+            "NG"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 12,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B5",
+            "B10",
+            "B9",
+            "B8",
+            "B7",
+            "B6"
+        ],
+        "subject": {
+            "name": "Machine Learning and NLP",
+            "acronym": "",
+            "coursecode": "17B1NCI731",
+            "refcode": "17B1NCI731"
+        },
+        "venue": null,
+        "teachers": [
+            "KVK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 9,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Social Network Analysis",
+            "acronym": "",
+            "coursecode": "15B1NCI732",
+            "refcode": "15B1NCI732"
+        },
+        "venue": null,
+        "teachers": [
+            "SJA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B9",
+            "B14",
+            "B13",
+            "B12",
+            "B11",
+            "B10"
+        ],
+        "subject": {
+            "name": "IoT analytics",
+            "acronym": "",
+            "coursecode": "19B12CS426",
+            "refcode": "CS426"
+        },
+        "venue": null,
+        "teachers": [
+            "KRL"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 11,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "ABC"
+        ],
+        "subject": {
+            "name": "Superconducting Materials, Magnets and Devices",
+            "acronym": "",
+            "coursecode": "20B12PH411",
+            "refcode": "PH411"
+        },
+        "venue": null,
+        "teachers": [
+            "DIN"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 12,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "B6",
+            "B10",
+            "B9",
+            "B8",
+            "B7"
+        ],
+        "subject": {
+            "name": "Social Network Analysis",
+            "acronym": "",
+            "coursecode": "15B1NCI732",
+            "refcode": "15B1NCI732"
+        },
+        "venue": null,
+        "teachers": [
+            "SJA"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 9,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Computer and Web security",
+            "acronym": "",
+            "coursecode": "17B1NCI732",
+            "refcode": "17B1NCI732"
+        },
+        "venue": null,
+        "teachers": [
+            "SMT"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Introduction to DEVOPS",
+            "acronym": "",
+            "coursecode": "19B12CS427",
+            "refcode": "CS427"
+        },
+        "venue": null,
+        "teachers": [
+            "SHB"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 9,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Cloud Computing",
+            "acronym": "",
+            "coursecode": "17B1NCI747",
+            "refcode": "CI747"
+        },
+        "venue": null,
+        "teachers": [
+            "PK"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 10,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "B"
+        ],
+        "subject": {
+            "name": "Computer Graphics",
+            "acronym": "",
+            "coursecode": "17B2NCI731",
+            "refcode": "17B2NCI731"
+        },
+        "venue": null,
+        "teachers": [
+            "PKAU",
+            "SUD"
+        ],
+        "sem": "7",
+        "degree": "btech"
+    }
+]

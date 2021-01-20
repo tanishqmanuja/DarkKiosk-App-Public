@@ -1,0 +1,59 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>Schedule Editor</ion-title>
+
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu" xPosition="before">
+
+      <button mat-menu-item (click)="saveTimetable()">
+        <mat-icon>save</mat-icon>
+        <span>Save</span>
+      </button>
+      
+      <button mat-menu-item (click)="mapTimetable(true)">
+        <mat-icon>settings_backup_restore</mat-icon>
+        <span>Reset</span>
+      </button>
+
+    </mat-menu>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="headers">
+    <h1>
+      {{selectedDay|titlecase}}
+    </h1>
+  </div>
+  <ion-slides [options]="slideOpts" (ionSlideDidChange)="slideChanged($event)" #slides>
+    <ion-slide *ngFor="let day of timetable;index as i">
+      <div class="class-container" *ngFor="let class of day;index as j">
+        <ion-card *ngIf="class">
+          <ion-card-content>
+            <div class="wrapper">
+              <div class="time">{{formatTime(class.time)[0]}}<span>{{formatTime(class.time)[1]}}</span></div>
+              <div class="venue">{{class.venue||'N.A.'}}</div>
+              <div class="info">
+                <div class="name">{{(class.subject.acronym || titleShortener(class.subject.name,10)) |slice:0:8}}</div>
+                <div class="type">{{class.type|titlecase}}</div>
+                <div class="teachers">{{class.teachers}}</div>
+              </div>
+              <div class="edit" (click)="openEdit(class,i,j)">
+                <ion-icon name="create-outline"></ion-icon>
+              </div>
+            </div>
+          </ion-card-content>
+        </ion-card>
+      </div>
+    </ion-slide>
+  </ion-slides>
+  <div class="safety-space"></div>
+  <ion-fab slot="fixed">
+    <ion-fab-button color="primary" (click)="openEdit()">
+      <ion-icon name="add-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

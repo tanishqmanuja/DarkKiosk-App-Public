@@ -1,0 +1,131 @@
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #121212;
+}
+
+.header,.header-extender {
+    width: 100vw;
+    background-color: var(--ion-green);
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    height: 16vh;
+    border-radius: 0 0 4rem 0;
+    .title{
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+        padding-bottom: 3vh;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        text-align: center;
+        color: rgba(0,0,0,60%);
+        font-weight: 600;
+    }
+}
+
+.header-extender {
+    position: absolute;
+    top: 16vh;
+    height: 34vh;
+}
+
+.form-container {
+    position: absolute;
+    top: 16vh;
+    z-index: 1;
+    height: 70vh;
+    width: 100vw;
+    background-color: #121212;
+    border-radius: 4rem 0 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 50vh;
+    width: 100vw;
+    background-color: transparent;
+}
+
+.footer::before{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url('../../../../assets/images/swirl.png');
+    background-position: center;
+    background-size: 20%;
+    background-repeat: repeat;
+    background-color: transparent;
+}
+
+.greeting,.batch{
+    text-align: left;
+    padding: 2em 0 0 3em;
+    font-family: 'Montserrat', sans-serif;
+    span{
+        font-weight: 200;
+    }
+    input{
+        border:none;
+        background-image:none;
+        background-color:transparent;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    input:focus{
+        outline: none;
+    }
+    input{
+        width: 80vw;
+        font-size: 3em;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+    }
+    .pills{
+        margin-top: 4px;
+        .pill{
+            position: absolute;
+            background-color: var(--ion-red);
+            height: 6px;
+            width: 30px;
+            border-radius: 4px;
+        }
+        .pill:nth-last-of-type(2){
+            background-color: var(--ion-yellow);
+            margin-left: 26px;
+        }
+        .pill:nth-last-of-type(3){
+            background-color: var(--ion-green);
+            margin-left: 52px;
+        }
+    }
+}
+
+.batch{
+    input{
+        text-transform: uppercase;
+    }
+}
+
+.login-btn{
+
+    margin: 0 auto;
+    width: 80vw;
+    border-radius: 4rem;
+    color: rgba(0,0,0,60%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    height: 4rem;
+}

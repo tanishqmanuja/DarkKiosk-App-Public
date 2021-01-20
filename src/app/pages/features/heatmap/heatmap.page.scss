@@ -1,0 +1,110 @@
+ion-header{
+    ion-toolbar{
+        //height: 10vh;
+        border-radius: 0 0 1em 1em;
+        padding-top: 25px;
+        ion-title{
+            padding-bottom: .5em;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
+
+ion-content{
+    .heatmap-container{
+        width: 90vw;
+        margin: 0 auto;
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: auto 8fr;
+        grid-template-rows: 1fr 6fr;
+        gap: .7rem;
+        align-items: center;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        .empty{
+            grid-row: 1;
+            grid-column: 1;
+        }
+        .timebar{
+            grid-row: 1;
+            grid-column: 2;
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+        }
+        .daybar{
+            height: 100%;
+            padding-right: .5rem;
+            grid-row: 2;
+            grid-column: 1;
+            gap: 6px;
+            display: grid;
+            grid-template-rows: repeat(6,1fr);
+        }
+        .heatmap{
+            height: 100%;
+            margin-right: .2rem;
+            grid-row: 2;
+            grid-column: 2;
+            display: grid;
+            grid-template-rows: repeat(6,1fr);
+            grid-template-columns: repeat(8,1fr);
+            gap: 6px;
+            align-items: center;
+            .line{
+                background-color: brown;
+                height: 12px;
+                border-radius: 6px;
+            }
+        }
+    }
+    .drawer{
+        position: absolute;
+        bottom: 5vw;
+        left: 5vw;
+        display: grid;
+        gap:.35rem;
+        grid-template-rows: auto 2fr .7fr;
+        background-color: #1c1c1c;
+        padding: 1rem;
+        width: 90vw;
+        border-radius: 1em;
+        .selected{
+            display: flex;
+            flex-direction: row;
+            .chip{
+                padding: .5rem .6rem;
+                background-color: var(--ion-color-primary);
+                border-radius: 1rem;
+                margin: 0 .3rem;
+                p{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: .7rem;
+                    margin: 0;
+                }
+            }
+        }
+        .menu{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            align-items: center;
+            justify-items: center;
+            mat-form-field{
+                width: 38vw;
+            }
+        }
+        .buttons{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            align-items: center;
+            gap: 1rem;
+            button{
+                font-family: 'Montserrat', sans-serif;
+                width: 38vw;
+                background-color: rgba(255,255,255,10%);
+            }
+        }
+    }
+}

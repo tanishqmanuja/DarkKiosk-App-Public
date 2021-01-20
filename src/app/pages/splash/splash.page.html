@@ -1,0 +1,12 @@
+<ion-content scroll-y="false">
+  <div class="background"></div>
+  <div class="vignette"></div>
+  <div class="wrapper">
+    <div class="title">
+      <div class="letter" *ngFor="let t of title;index as i" [ngStyle]="{'animation-delay':titleDelay(i)+'ms'}">{{t}}</div>
+    </div>
+    <div class="subtitle">
+      <div class="letter" *ngFor="let s of subtitle;index as i" [ngStyle]="{'animation-delay':subtitleDelay(i)+'ms'}">{{s}}</div>
+    </div>
+  </div>
+</ion-content>

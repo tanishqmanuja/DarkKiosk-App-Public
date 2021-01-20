@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+ion-content{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    h3{
+        font-weight: 200;
+        font-size: .7em;
+    }
+    .sem-selector{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding: .2em;
+        ion-label{
+            font-weight: 600;
+            font-size: 3em;
+        }
+        ion-icon{
+            padding: 1em;
+        }
+    }
+    ion-card{
+        border-radius: 1em;
+        overflow: hidden;
+        transition: .2s ease-in-out;
+        box-shadow: none;
+        // -webkit-transform: translate3d(0, 0, 0);
+        // transform: translate3d(0, 0, 0);
+        ion-card-subtitle{
+            text-transform: none;
+        }
+    }
+    ion-card.semester-card{
+        font-family: 'Montserrat', sans-serif;
+        background: var(--ion-color-primary);
+        color: white;
+        ion-card-content{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            h4{
+                font-weight: 200;
+                font-size: .7em;
+                span{
+                    font-size: 1.7em;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    ion-card.subjects-card{
+        ion-card-header{
+            font-family: 'Montserrat', sans-serif;
+            ion-card-title{
+                font-weight: 600;
+                font-size: 1em;
+            }
+            ion-card-subtitle{
+                font-weight: 200;
+                font-size: .8em;
+            }
+            ion-fab{
+                font-family: 'Kalam', cursive;
+                font-weight: 700;
+            }
+        }
+        ion-card-content{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            h6{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 200;
+                font-size: .8em;
+                span{
+                    font-size: 1.3em;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.nodata{
+    h4{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+    }
+}
+
+.exit-enter-styles {
+    opacity: 0;
+    transform: translate3d(0, 10px, 0) scale(0.95);
+}

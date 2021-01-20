@@ -1,0 +1,57 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>HeatMap</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="heatmap-container">
+    <div class="timebar">
+      <div>9</div>
+      <div>10</div>
+      <div>11</div>
+      <div>12</div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+    <div class="daybar">
+      <div>M</div>
+      <div>T</div>
+      <div>W</div>
+      <div>T</div>
+      <div>F</div>
+      <div>S</div>
+    </div>
+    <div class="empty"></div>
+    <div class="heatmap">
+      <ng-container *ngFor="let day of heatmap">
+        <ng-container *ngFor="let item of day">
+          <div class="line" [ngStyle]="{'grid-column':'span '+item.length,'background':item.val?'var(--ion-red)':'var(--ion-green)'}"></div>
+        </ng-container>
+      </ng-container> 
+    </div>
+  </div>
+  <div class="drawer" [ngStyle]="{'bottom':keyboardUp?'40vh':'5vw'}">
+    <div class="selected">
+      <div class="chip" *ngFor="let item of selected">
+        <p>{{item.batch}} | {{item.sem}}</p>
+      </div>
+    </div>
+    <div class="menu">
+      <mat-form-field appearance="outline" color="primary" class="no-padding">
+        <mat-label>Batch</mat-label>
+        <input matInput placeholder="Ex. A9" #batchIn>
+      </mat-form-field>
+      <mat-form-field appearance="outline" color="primary" class="no-padding">
+        <mat-label>Sem</mat-label>
+        <input matInput placeholder="Ex. 6" #semIn>
+      </mat-form-field>
+    </div>
+    <div class="buttons">
+      <button mat-flat-button class="rst-btn" (click)="resetSelection()">Reset</button>
+      <button mat-flat-button class="add-btn" (click)="addSelection(batchIn.value,semIn.value)">Add</button>
+    </div>
+  </div>
+</ion-content>

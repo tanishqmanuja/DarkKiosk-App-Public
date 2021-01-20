@@ -14,7 +14,20 @@ This app relies on DarkKiosk API (https://github.com/tanishqmanuja/DarkKiosk-API
 
 ## Screenshots
 
+### Homepage
+![Homepage](./screenshots/Screenshot_20200507-140409.jpg)
 
+### Homepage with classes
+![Homepage with classes](./screenshots/Screenshot_20200511-151424.jpg)
 
+### Schedule/Timeatble
+![Schedule](./screenshots/Screenshot_20200507-140414.jpg)
 
+### Reports
+![Reports](./screenshots/Screenshot_20200507-140422.jpg)
 
+### Attedance
+![Attedance](./screenshots/Screenshot_20200507-140427.jpg)
+
+### Attendance Details
+![Attendance Details](./screenshots/Screenshot_20200507-140432.jpg)

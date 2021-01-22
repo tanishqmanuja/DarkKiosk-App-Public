@@ -23,7 +23,7 @@ This app relies on DarkKiosk API (https://github.com/tanishqmanuja/DarkKiosk-API
 <img src="./screenshots/Screenshot_20200511-151424.jpg" width=540>
 
 
-### Schedule/Timeatble
+### Schedule/Timetable
 <img src="./screenshots/Screenshot_20200507-140414.jpg" width=540>
 
 
